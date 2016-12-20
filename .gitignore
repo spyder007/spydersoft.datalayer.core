@@ -28,3 +28,4 @@ packages/
 [Nn]u[Gg]et.exe
 *.GhostDoc.xml
 bower_components/
+PackageOutput/*
