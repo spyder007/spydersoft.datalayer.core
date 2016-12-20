@@ -1,12 +1,14 @@
 ﻿using System;
 using System.Linq.Expressions;
 using System.Reflection;
+using System.Runtime.Serialization;
 
 namespace mgSoft.DataLayer.Core
 {
     /// <summary>
     /// Class DataItem.
     /// </summary>
+    [DataContract]
     public abstract class DataItem : IDataItem
     {
         #region IDataItem Implementation
@@ -15,6 +17,7 @@ namespace mgSoft.DataLayer.Core
         /// Gets or sets the identifier.
         /// </summary>
         /// <value>The identifier.</value>
+        [DataMember]
         public abstract long Id { get; set; }
 
         /// <summary>
