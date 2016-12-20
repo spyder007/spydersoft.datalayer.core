@@ -29,3 +29,5 @@ packages/
 *.GhostDoc.xml
 bower_components/
 PackageOutput/*
+.vs/*
+*.nupkg
