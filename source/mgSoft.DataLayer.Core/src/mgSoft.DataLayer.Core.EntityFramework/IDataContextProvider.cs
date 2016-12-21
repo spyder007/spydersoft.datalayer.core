@@ -20,8 +20,7 @@ namespace mgSoft.DataLayer.Core.EntityFramework
         /// <summary>
         /// Initializes the specified data store path.
         /// </summary>
-        /// <param name="dataStorePath">The data store path.</param>
-        void Initialize(string dataStorePath);
+        void Initialize();
 
         /// <summary>
         /// Verifies the current instance of this context provider is valid.

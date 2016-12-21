@@ -28,11 +28,12 @@ namespace mgSoft.DataLayer.Core.EntityFramework
         /// <param name="dataStorePath">on this implementation dataStorePath is a connection string [used to instantiate an IDataContextProvider]</param>
         /// <param name="dataContextProvider">The <see cref="IDataContextProvider"/> used to provide the <see cref="DbContext"/> for various items.</param>
         /// <exception cref="System.Exception">Database does not exist.</exception>
-        public DataStore(string dataStorePath, IDataContextProvider dataContextProvider)
+        public DataStore(IDataContextProvider dataContextProvider)
         {
             _contextProvider = dataContextProvider;
-            DataStorePath = dataStorePath;
-            _contextProvider.Initialize(dataStorePath);
+            DataStorePath = string.Empty;
+
+            _contextProvider.Initialize();
             if (!dataContextProvider.VerifyContext())
             {
                 throw new Exception("Database does not exist.");
