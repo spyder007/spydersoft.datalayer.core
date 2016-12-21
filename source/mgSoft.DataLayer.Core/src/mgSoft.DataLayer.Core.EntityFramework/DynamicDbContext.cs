@@ -100,8 +100,7 @@ namespace mgSoft.DataLayer.Core.EntityFramework
 
             // Map the Primary Key
             var idProperty = typeInfo.GetProperties().FirstOrDefault(t => t.GetCustomAttributes(typeof(KeyAttribute), false).Any());
-            var expr = Expression.Lambda<Func<TDataItem, object>>(Expression.PropertyOrField(pe, idProperty.Name), pe);
-            entityConfiguration.HasKey(expr);
+            entityConfiguration.HasKey(idProperty.Name);
 
             var columnProperties =
                 typeInfo.GetProperties()
