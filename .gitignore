@@ -29,5 +29,6 @@ packages/
 *.GhostDoc.xml
 bower_components/
 PackageOutput/*
-.vs/*
+*/.vs
 *.nupkg
+project.lock.json
