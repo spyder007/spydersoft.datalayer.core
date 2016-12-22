@@ -32,3 +32,4 @@ PackageOutput/*
 */.vs
 *.nupkg
 project.lock.json
+**/.vs/*
