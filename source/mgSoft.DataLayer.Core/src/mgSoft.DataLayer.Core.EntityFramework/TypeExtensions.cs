@@ -31,6 +31,7 @@ namespace mgSoft.DataLayer.Core.EntityFramework
         {
             var methods = genericType.GetTypeInfo().GetMethods(BindingFlags.Instance |
                                                  BindingFlags.NonPublic |
+                                                 BindingFlags.Public | 
                                                  BindingFlags.Static);
 
             // We basically have all of the methods that are available on the type, select only the

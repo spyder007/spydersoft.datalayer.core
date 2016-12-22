@@ -396,18 +396,10 @@ namespace mgSoft.DataLayer.Core.EntityFramework
                 throw new ArgumentNullException(nameof(dbContext));
             }
 
+            Type dataItemType = itemToDelete.GetType();
             var entry = dbContext.Entry(itemToDelete);
             if (entry.State == EntityState.Detached)
             {
-                Type dataItemType = itemToDelete.GetType();
-
-                //
-                // MEA 070314 Note this is using a custom extension method to the Type object because of limitations in the
-                // .NET GetMethod() implementation when generic methods are involved.
-                //
-                // For a more complete discussion of why this was necessary, see this discussion post on the Point:
-                // https://thepoint.frsoft.com/DiscCenterFrame.asp?TopicID=463
-                //
                 var getItemMethodInfo = GetType().GetGenericMethod("ProcessGetItem",
                                                                     new Type[] { typeof(long), typeof(DbContext) });
 
@@ -427,7 +419,7 @@ namespace mgSoft.DataLayer.Core.EntityFramework
 
             if (itemToDelete != null)
             {
-                dbContext.Set<TDataItem>().Remove(itemToDelete);
+                dbContext.Remove(itemToDelete);
                 dbContext.SaveChanges();
             }
         }

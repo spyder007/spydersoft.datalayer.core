@@ -122,6 +122,7 @@ namespace mgSoft.DataLayer.Core.EntityFramework
             {
                 entityConfiguration.Ignore(expression);
             }
+
         }
 
         #endregion Protected Methods
