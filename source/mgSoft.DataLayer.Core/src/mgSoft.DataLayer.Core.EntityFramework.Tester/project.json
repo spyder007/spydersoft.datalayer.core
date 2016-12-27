@@ -6,7 +6,7 @@
 
   "dependencies": {
     "mgSoft.DataLayer.Core": "1.0.1-*",
-    "mgSoft.DataLayer.Core.EntityFramework": "1.0.2",
+    "mgSoft.DataLayer.Core.EntityFramework": "1.0.4",
     "Microsoft.EntityFrameworkCore.SqlServer": "1.1.0",
     "Microsoft.NETCore.App": {
       "type": "platform",
