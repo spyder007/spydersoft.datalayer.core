@@ -82,7 +82,7 @@ namespace mgSoft.DataLayer.Core.EntityFramework.Tester
         /// <typeparam name="TDataItem">The type of the t data item.</typeparam>
         /// <returns>DbContext.</returns>
         /// TODO Edit XML Comment Template for GetDbContext`1
-        DbContext IDataContextProvider.GetDbContext<TDataItem>()
+        public DbContext GetDbContext<TDataItem>() where TDataItem : class, IDataItem, new()
         {
             TDataItem item = new TDataItem();
             return GetDbContext(item);

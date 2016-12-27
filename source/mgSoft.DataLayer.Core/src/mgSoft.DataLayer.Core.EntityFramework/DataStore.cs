@@ -498,7 +498,7 @@ namespace mgSoft.DataLayer.Core.EntityFramework
             }
 
             var dbContext = _contextProvider.GetDbContext<TDataContract>();
-            return ProcessGetItems<TDataContract>(predicate, skip, take, dbContext);
+            return ProcessGetItems(predicate, skip, take, dbContext);
         }
 
         /// <summary>
@@ -562,7 +562,7 @@ namespace mgSoft.DataLayer.Core.EntityFramework
             }
 
             var dbContext = _contextProvider.GetDbContext<TDataContract>();
-            return ProcessGetItems<TDataContract>(predicate, dbContext);
+            return ProcessGetItems(predicate, dbContext);
         }
 
         /// <summary>
@@ -590,6 +590,7 @@ namespace mgSoft.DataLayer.Core.EntityFramework
             {
                 throw new ArgumentNullException(nameof(dbContext));
             }
+            
 
             var data = dbContext.Set<TDataContract>().Where(predicate).ToList();
             return (data.Count == 0) ? null : data;
@@ -764,7 +765,7 @@ namespace mgSoft.DataLayer.Core.EntityFramework
         /// </summary>
         /// <typeparam name="T">The Data Contract type, which identifies the table.</typeparam>
         /// <returns>Expression&lt;Func&lt;T, System.Int32&gt;&gt;.</returns>
-        private static Expression<Func<T, int>> GetKeyAsExpression<T>()
+        private static Expression<Func<T, long>> GetKeyAsExpression<T>()
         {
             var type = typeof(T);
             var pe = Expression.Parameter(type);
@@ -776,7 +777,7 @@ namespace mgSoft.DataLayer.Core.EntityFramework
                 propertyName = idProperty.Name;
             }
 
-            var expr = Expression.Lambda<Func<T, int>>(Expression.PropertyOrField(pe, propertyName), pe);
+            var expr = Expression.Lambda<Func<T, long>>(Expression.PropertyOrField(pe, propertyName), pe);
             return expr;
         }
 
