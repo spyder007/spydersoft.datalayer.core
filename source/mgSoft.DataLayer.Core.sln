@@ -3,9 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.13
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FC9FBE16-BB7A-42F1-915B-1D1E93B2F81E}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "mgSoft.DataLayer.Core", "src\mgSoft.DataLayer.Core\mgSoft.DataLayer.Core.csproj", "{C249898C-A486-4CBB-AE80-3B23A2842723}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "mgSoft.DataLayer.Core", "mgSoft.DataLayer.Core\mgSoft.DataLayer.Core.csproj", "{C249898C-A486-4CBB-AE80-3B23A2842723}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
