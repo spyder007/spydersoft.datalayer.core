@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq.Expressions;
 using System.Reflection;
 using System.Runtime.Serialization;
@@ -36,12 +38,7 @@ namespace mgSoft.DataLayer.Core
         /// <param name="propertyExpression">An expression representing the property whose value has changed.</param>
         protected virtual void RaiseValueChanged<TPropertyReturnType>(Expression<Func<TPropertyReturnType>> propertyExpression)
         {
-            var handler = ValueChanged;
-            if (handler != null)
-            {
-                var propertyName = GetPropertyName(propertyExpression);
-                handler(this, new DataItemEventArgs(propertyName));
-            }
+            RaiseValueChanged(GetPropertyName(propertyExpression));
         }
 
         /// <summary>
@@ -50,11 +47,7 @@ namespace mgSoft.DataLayer.Core
         /// <param name="propertyName">Name of the property.</param>
         protected virtual void RaiseValueChanged(string propertyName)
         {
-            var handler = ValueChanged;
-            if (handler != null)
-            {
-                handler(this, new DataItemEventArgs(propertyName));
-            }
+            ValueChanged?.Invoke(this, new DataItemEventArgs(propertyName));
         }
 
         /// <summary>
@@ -73,26 +66,35 @@ namespace mgSoft.DataLayer.Core
         {
             if (propertyExpression == null)
             {
-                throw new ArgumentNullException("propertyExpression");
+                throw new ArgumentNullException(nameof(propertyExpression));
             }
 
-            var body = propertyExpression.Body as MemberExpression;
-
-            if (body == null)
+            if (!(propertyExpression.Body is MemberExpression body))
             {
-                throw new ArgumentException("Invalid argument", "propertyExpression");
+                throw new ArgumentException("Invalid argument", nameof(propertyExpression));
             }
 
-            var property = body.Member as PropertyInfo;
-
-            if (property == null)
+            if (!(body.Member is PropertyInfo property))
             {
-                throw new ArgumentException("Argument is not a property", "propertyExpression");
+                throw new ArgumentException("Argument is not a property", nameof(propertyExpression));
             }
 
             return property.Name;
         }
 
         #endregion RaiseValueChanged Protected Methods
+
+        #region Property Helpers
+        protected void SetPropertyField<T>(string propertyName, ref T field, T newValue)
+        {
+            if (EqualityComparer<T>.Default.Equals(field, newValue))
+            {
+                return;
+            }
+
+            field = newValue;
+            RaiseValueChanged(propertyName);
+        }
+        #endregion
     }
 }
