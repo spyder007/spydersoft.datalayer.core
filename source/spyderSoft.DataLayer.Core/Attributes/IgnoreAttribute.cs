@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace mgSoft.DataLayer.Core.Attributes
+namespace spyderSoft.DataLayer.Core.Attributes
 {
     /// <summary>
     /// Class IgnorePropertyAttribute. This attribute must be used to ignore a field for a DataItem.

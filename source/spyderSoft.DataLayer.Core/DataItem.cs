@@ -5,7 +5,7 @@ using System.Linq.Expressions;
 using System.Reflection;
 using System.Runtime.Serialization;
 
-namespace mgSoft.DataLayer.Core
+namespace spyderSoft.DataLayer.Core
 {
     /// <summary>
     /// Class DataItem.

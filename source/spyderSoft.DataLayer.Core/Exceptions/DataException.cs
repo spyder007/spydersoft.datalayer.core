@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace mgSoft.DataLayer.Core.Exceptions
+namespace spyderSoft.DataLayer.Core.Exceptions
 {
     /// <summary>
     /// Class DataException.

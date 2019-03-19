@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
 
-namespace mgSoft.DataLayer.Core
+namespace spyderSoft.DataLayer.Core
 {
     /// <summary>
     ///     Event arguments used by a Data Item when a property value has been modified.

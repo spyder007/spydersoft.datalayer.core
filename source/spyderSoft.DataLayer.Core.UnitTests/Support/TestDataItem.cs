@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace mgSoft.DataLayer.Core.UnitTests.Support
+namespace spyderSoft.DataLayer.Core.UnitTests.Support
 {
     public class TestDataItem : DataItem
     {

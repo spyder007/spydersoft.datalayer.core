@@ -1,6 +1,6 @@
 using NUnit.Framework;
 
-namespace mgSoft.DataLayer.Core.UnitTests
+namespace spyderSoft.DataLayer.Core.UnitTests
 {
     public class DataItemEventArgsTests
     {

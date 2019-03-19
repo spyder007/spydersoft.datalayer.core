@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace mgSoft.DataLayer.Core.Attributes
+namespace spyderSoft.DataLayer.Core.Attributes
 {
     /// <summary>
     /// Class ColumnNameAttribute.  This attribute can be applied to a Property or Field and define the column name in the database table

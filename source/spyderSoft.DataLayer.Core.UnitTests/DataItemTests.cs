@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using mgSoft.DataLayer.Core.UnitTests.Support;
+using spyderSoft.DataLayer.Core.UnitTests.Support;
 using Moq;
 using NUnit.Framework;
 
-namespace mgSoft.DataLayer.Core.UnitTests
+namespace spyderSoft.DataLayer.Core.UnitTests
 {
     public class DataItemTests
     {

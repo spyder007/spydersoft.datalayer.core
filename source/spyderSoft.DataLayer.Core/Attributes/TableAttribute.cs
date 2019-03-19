@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace mgSoft.DataLayer.Core.Attributes
+namespace spyderSoft.DataLayer.Core.Attributes
 {
     /// <summary>
     /// Class TableAttribute.  This attribute can be used to decorate a class and identify the table properties for

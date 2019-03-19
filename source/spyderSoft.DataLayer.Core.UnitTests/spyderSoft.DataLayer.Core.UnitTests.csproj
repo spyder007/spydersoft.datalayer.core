@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\mgSoft.DataLayer.Core\mgSoft.DataLayer.Core.csproj" />
+    <ProjectReference Include="..\spyderSoft.DataLayer.Core\spyderSoft.DataLayer.Core.csproj" />
   </ItemGroup>
 
 </Project>

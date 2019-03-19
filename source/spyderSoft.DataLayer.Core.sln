@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.13
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "mgSoft.DataLayer.Core", "mgSoft.DataLayer.Core\mgSoft.DataLayer.Core.csproj", "{C249898C-A486-4CBB-AE80-3B23A2842723}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "spyderSoft.DataLayer.Core", "spyderSoft.DataLayer.Core\spyderSoft.DataLayer.Core.csproj", "{C249898C-A486-4CBB-AE80-3B23A2842723}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "mgSoft.DataLayer.Core.UnitTests", "mgSoft.DataLayer.Core.UnitTests\mgSoft.DataLayer.Core.UnitTests.csproj", "{86320A19-937B-4372-8179-36AB1D67A05E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "spyderSoft.DataLayer.Core.UnitTests", "spyderSoft.DataLayer.Core.UnitTests\spyderSoft.DataLayer.Core.UnitTests.csproj", "{86320A19-937B-4372-8179-36AB1D67A05E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

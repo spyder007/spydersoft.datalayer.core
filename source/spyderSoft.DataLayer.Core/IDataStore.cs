@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 
-namespace mgSoft.DataLayer.Core
+namespace spyderSoft.DataLayer.Core
 {
     /// <summary>
     /// The generic interface that defines the functionality of a DataStore.

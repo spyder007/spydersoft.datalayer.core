@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace mgSoft.DataLayer.Core
+namespace spyderSoft.DataLayer.Core
 {
     /// <summary>
     /// Defines the basic interface of a DataItem or data contract.
