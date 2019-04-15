@@ -14,7 +14,7 @@ namespace spyderSoft.DataLayer.Core.UnitTests
         {
             var testDataItem = new TestDataItem();
             Assert.IsInstanceOf<TestDataItem>(testDataItem);
-            Assert.AreEqual(0, testDataItem.Id);
+            Assert.That(testDataItem.Id, Is.EqualTo(0));
         }
 
         [Test]
@@ -28,8 +28,8 @@ namespace spyderSoft.DataLayer.Core.UnitTests
                 };
 
             testDataItem.Id = 1;
-            Assert.That(receivedPropertyChanges.Count == 1);
-            Assert.That(receivedPropertyChanges[0] == nameof(testDataItem.Id));
+            Assert.That(receivedPropertyChanges.Count, Is.EqualTo(1));
+            Assert.That(receivedPropertyChanges, Has.Member(nameof(testDataItem.Id)));
         }
 
         [Test]
@@ -43,7 +43,7 @@ namespace spyderSoft.DataLayer.Core.UnitTests
             };
 
             testDataItem.Id = 0;
-            Assert.That(receivedPropertyChanges.Count == 0);
+            Assert.That(receivedPropertyChanges, Is.Empty);
         }
     }
 }
