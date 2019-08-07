@@ -85,6 +85,14 @@ namespace spyderSoft.DataLayer.Core
         #endregion RaiseValueChanged Protected Methods
 
         #region Property Helpers
+        /// <summary>
+        /// Set the value of <paramref name="field"/> to <paramref name="newValue"/> if they are not equal, and then raise
+        /// the ValueChanged event using <paramref name="propertyName"/>
+        /// </summary>
+        /// <param name="propertyName">The name of the property being changed.</param>
+        /// <param name="field">The current field value</param>
+        /// <param name="newValue">The desired field value</param>
+        /// <typeparam name="T">The type for <paramref name="propertyName"/></typeparam>
         protected void SetPropertyField<T>(string propertyName, ref T field, T newValue)
         {
             if (EqualityComparer<T>.Default.Equals(field, newValue))
