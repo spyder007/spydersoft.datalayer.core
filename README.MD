@@ -1,3 +1,3 @@
 ## Spydersoft.Datalayer.Core
 
-Documentation for this library can be found in the repository's [documentation](docs/Home.md).
+Documentation for this library can be found in the repository's [documentation](docs/).
