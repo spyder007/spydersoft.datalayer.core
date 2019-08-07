@@ -25,8 +25,8 @@ Methods
 
 | Type | Name | Summary | 
 | --- | --- | --- | 
-| `void` | RaiseValueChanged(`Expression<Func<TPropertyReturnType>>` propertyExpression) | Raises the [spyderSoft.DataLayer.Core.DataItem.ValueChanged](spyderSoft.DataLayer.Core.DataItem#valuechanged) event using the name from the given property expression. | 
-| `void` | RaiseValueChanged(`String` propertyName) | Raises the [spyderSoft.DataLayer.Core.DataItem.ValueChanged](spyderSoft.DataLayer.Core.DataItem#valuechanged) event using the name from the given property expression. | 
+| `void` | RaiseValueChanged(`Expression<Func<TPropertyReturnType>>` propertyExpression) | Raises the [spyderSoft.DataLayer.Core.DataItem.ValueChanged](spyderSoft.DataLayer.Core.DataItem.md#valuechanged) event using the name from the given property expression. | 
+| `void` | RaiseValueChanged(`String` propertyName) | Raises the [spyderSoft.DataLayer.Core.DataItem.ValueChanged](spyderSoft.DataLayer.Core.DataItem.md#valuechanged) event using the name from the given property expression. | 
 | `void` | SetPropertyField(`String` propertyName, `T&` field, `T` newValue) | Set the value of `` to `` if they are not equal, and then raise  the ValueChanged event using `` | 
 
 
