@@ -26,9 +26,9 @@ jobs:
       run: dotnet test --no-restore --verbosity normal
       working-directory: ./source
     - name: Determine version (release)
-      if: ${{ github.event.type == 'released'}}
+      if: ${{ github.event.action == 'released'}}
       run: echo "::set-env name=VERSION::$(git describe --tags --dirty)"
-    - name: Package ${{ github.event.type }}
+    - name: Package
       if: ${{ github.event.action == 'released'}}
       run: dotnet pack --output ./artifacts --configuration Release --no-build --no-restore -p:Version=$VERSION
       working-directory: ./source
