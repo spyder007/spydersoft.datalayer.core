@@ -1,0 +1,38 @@
+name: .NET Core
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+  release:
+    types: [ released ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Setup .NET Core
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: 3.1.301
+    - name: Install dependencies
+      run: dotnet restore 
+      working-directory: ./source
+    - name: Build
+      run: dotnet build --configuration Release --no-restore
+      working-directory: ./source
+    - name: Test
+      run: dotnet test --no-restore --verbosity normal
+      working-directory: ./source
+    - name: Determine version (release)
+      if: ${{ github.event.type == 'released'}}
+      run: echo "::set-env name=VERSION::$(git describe --tags --dirty)"
+    - name: Package ${{ github.event.type }}
+      if: ${{ github.event.action == 'released'}}
+      run: dotnet pack --output ./artifacts --configuration Release --no-build --no-restore -p:Version=$VERSION
+      working-directory: ./source
+    - name: Publish packages
+      if: ${{ github.event.action == 'released'}}
+      run: dotnet nuget push ./artifacts/**.nupkg --source nuget.org --api-key ${{secrets.NUGET_TOKEN}}
+      working-directory: ./source
