@@ -1,4 +1,4 @@
-name: .NET Core
+name: Library Build and Publish
 
 on:
   push:
@@ -39,7 +39,7 @@ jobs:
       uses: actions/upload-artifact@v1
       with:
         name: artifacts
-        path: ./artifacts
+        path: ./source/artifacts
     - name: Publish packages
       if: ${{ github.event.action == 'published' && !github.event.release.draft}}
       run: dotnet nuget push ./artifacts/**.nupkg --source nuget.org --api-key ${{secrets.NUGET_TOKEN}}
