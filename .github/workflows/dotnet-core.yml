@@ -6,7 +6,7 @@ on:
   pull_request:
     branches: [ master ]
   release:
-    types: [ published ]
+    types: [ released ]
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -25,7 +25,14 @@ jobs:
     - name: Test
       run: dotnet test --no-restore --verbosity normal
       working-directory: ./source
-    - name: Package ${{ github.event.type }}
+    - name: Determine version (release)
       if: ${{ github.event.type == 'released'}}
-      run: dotnet pack --configuration Release --no-build --no-restore
+      run: echo "::set-env name=VERSION::$(git describe --tags --dirty)"
+    - name: Package ${{ github.event.type }}
+      if: ${{ github.event.action == 'released'}}
+      run: dotnet pack --output ./artifacts --configuration Release --no-build --no-restore -p:Version=$VERSION
+      working-directory: ./source
+    - name: Publish packages
+      if: ${{ github.event.action == 'released'}}
+      run: dotnet nuget push ./artifacts/**.nupkg --source nuget.org --api-key ${{secrets.NUGET_TOKEN}}
       working-directory: ./source
