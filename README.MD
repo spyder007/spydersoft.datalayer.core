@@ -1,5 +1,11 @@
 # Spydersoft.Datalayer.Core
 
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 ## Purpose
 
 This class library provides the basic interfaces and classes necessary to support a storage-agnostic data layer with observable data items. 
@@ -15,3 +21,18 @@ The **Attributes** namespace provides ORM-agnostic attributes for marking up ins
 ## Object documentation
 
 Generated object documentation for this library can be found in the repository's [documentation](docs/).
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/spyder007/spydersoft.datalayer.core.svg?style=for-the-badge
+[contributors-url]: https://github.com/spyder007/spydersoft.datalayer.core/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/spyder007/spydersoft.datalayer.core.svg?style=for-the-badge
+[forks-url]: https://github.com/spyder007/spydersoft.datalayer.core/network/members
+[stars-shield]: https://img.shields.io/github/stars/spyder007/spydersoft.datalayer.core?style=for-the-badge
+[stars-url]: https://github.com/spyder007/spydersoft.datalayer.core/stargazers
+[issues-shield]: https://img.shields.io/github/issues/spyder007/spydersoft.datalayer.core.svg?style=for-the-badge
+[issues-url]: https://github.com/spyder007/spydersoft.datalayer.core/issues
+[license-shield]: https://img.shields.io/github/license/spyder007/spydersoft.datalayer.core.svg?style=for-the-badge
+[license-url]: https://github.com/spyder007/spydersoft.datalayer.core/blob/main/LICENSE
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/geregam
