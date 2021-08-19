@@ -27,15 +27,15 @@ jobs:
     - name: Test
       run: dotnet test --no-restore --verbosity normal --collect:"XPlat Code Coverage" -r "./coverage"
       working-directory: ./source
-    - name: Test & publish code coverage
-      uses: paambaati/codeclimate-action@v2.7.5
-      env:
-        CC_TEST_REPORTER_ID: ${{secrets.CODE_CLIMATE_REPORTER_ID}}
-      with:
-        prefix: ${{github.workspace}}/source
-        debug: true
-        coverageLocations: |
-          ${{github.workspace}}/source/coverage/**/*.cobertura.xml:cobertura
+    #- name: Test & publish code coverage
+    #  uses: paambaati/codeclimate-action@v2.7.5
+    #  env:
+    #    CC_TEST_REPORTER_ID: ${{secrets.CODE_CLIMATE_REPORTER_ID}}
+    #  with:
+    #    prefix: ${{github.workspace}}/source
+    #    debug: true
+    #    coverageLocations: |
+    #      ${{github.workspace}}/source/coverage/**/*.cobertura.xml:cobertura
     - name: Set default version
       run: echo "VERSION=$(git describe --tags --dirty)" >> $GITHUB_ENV
     - name: Set release version
