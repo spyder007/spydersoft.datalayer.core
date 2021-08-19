@@ -33,7 +33,7 @@ jobs:
         CC_TEST_REPORTER_ID: ${{secrets.CODE_CLIMATE_REPORTER_ID}}
       with:
         coverageLocations: |
-          ${{github.workspace}}/coverage/**/*.cobertura.xml
+          ${{github.workspace}}/coverage/**/*.cobertura.xml:cobertura
     - name: Set default version
       run: echo "VERSION=$(git describe --tags --dirty)" >> $GITHUB_ENV
     - name: Set release version
