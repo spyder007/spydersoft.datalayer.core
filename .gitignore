@@ -33,3 +33,4 @@ PackageOutput/*
 *.nupkg
 project.lock.json
 **/.vs/*
+source/coverage/*
