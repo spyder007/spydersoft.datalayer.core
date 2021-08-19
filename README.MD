@@ -6,6 +6,8 @@
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
+[![Build Status][build-shield]][build-url]
+[![Code Climate Score][codeclimate-shield]][codeclimate-url]
 ## Purpose
 
 This class library provides the basic interfaces and classes necessary to support a storage-agnostic data layer with observable data items. 
@@ -36,3 +38,7 @@ Generated object documentation for this library can be found in the repository's
 [license-url]: https://github.com/spyder007/spydersoft.datalayer.core/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/geregam
+[build-shield]: https://img.shields.io/github/workflow/status/spyder007/spydersoft.datalayer.core/Library%20Build%20and%20Publish?style=for-the-badge
+[build-url]: https://github.com/spyder007/spydersoft.datalayer.core/actions/workflows/dotnet-core.yml
+[codeclimate-shield]: https://img.shields.io/codeclimate/maintainability/spyder007/spydersoft.datalayer.core?style=for-the-badge
+[codeclimate-url]: https://codeclimate.com/github/spyder007/spydersoft.datalayer.core
