@@ -71,7 +71,6 @@ jobs:
         run: dotnet restore
         working-directory: ./source
       - name: DocFX Build
-        working-directory: docs
         run: docfx docs/docfx.json
         continue-on-error: false
       - name: Publish
