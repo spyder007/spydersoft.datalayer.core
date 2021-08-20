@@ -34,3 +34,9 @@ PackageOutput/*
 project.lock.json
 **/.vs/*
 source/coverage/*
+/**/DROP/
+/**/TEMP/
+/**/packages/
+/**/bin/
+/**/obj/
+_site
