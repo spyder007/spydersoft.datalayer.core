@@ -1,0 +1,937 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface IDataStore
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface IDataStore
+   ">
+    <meta name="generator" content="docfx 2.58.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="spyderSoft.DataLayer.Core.IDataStore">
+  
+  
+  <h1 id="spyderSoft_DataLayer_Core_IDataStore" data-uid="spyderSoft.DataLayer.Core.IDataStore" class="text-break">Interface IDataStore
+  </h1>
+  <div class="markdown level0 summary"><p>The generic interface that defines the functionality of a DataStore.
+A Data Store is the mechanism by which data can be retrieved from a data base,
+be it an XML file, SQL Server Database, Oracle Database, SQLite database, etc.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="spyderSoft.DataLayer.Core.html">spyderSoft.DataLayer.Core</a></h6>
+  <h6><strong>Assembly</strong>: spyderSoft.DataLayer.Core.dll</h6>
+  <h5 id="spyderSoft_DataLayer_Core_IDataStore_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IDataStore</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/spyder007/spydersoft.datalayer.core/new/main/apiSpec/new?filename=spyderSoft_DataLayer_Core_IDataStore_DataStorePath.md&amp;value=---%0Auid%3A%20spyderSoft.DataLayer.Core.IDataStore.DataStorePath%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/spyder007/spydersoft.datalayer.core/blob/main/source/spyderSoft.DataLayer.Core/IDataStore.cs/#L20">View Source</a>
+  </span>
+  <a id="spyderSoft_DataLayer_Core_IDataStore_DataStorePath_" data-uid="spyderSoft.DataLayer.Core.IDataStore.DataStorePath*"></a>
+  <h4 id="spyderSoft_DataLayer_Core_IDataStore_DataStorePath" data-uid="spyderSoft.DataLayer.Core.IDataStore.DataStorePath">DataStorePath</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the means by which a connection can be made to a data base.
+In some cases a File Path, in Others a Connection string.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string DataStorePath { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The data store path.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/spyder007/spydersoft.datalayer.core/new/main/apiSpec/new?filename=spyderSoft_DataLayer_Core_IDataStore_DeleteItem_spyderSoft_DataLayer_Core_IDataItem_.md&amp;value=---%0Auid%3A%20spyderSoft.DataLayer.Core.IDataStore.DeleteItem(spyderSoft.DataLayer.Core.IDataItem)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/spyder007/spydersoft.datalayer.core/blob/main/source/spyderSoft.DataLayer.Core/IDataStore.cs/#L117">View Source</a>
+  </span>
+  <a id="spyderSoft_DataLayer_Core_IDataStore_DeleteItem_" data-uid="spyderSoft.DataLayer.Core.IDataStore.DeleteItem*"></a>
+  <h4 id="spyderSoft_DataLayer_Core_IDataStore_DeleteItem_spyderSoft_DataLayer_Core_IDataItem_" data-uid="spyderSoft.DataLayer.Core.IDataStore.DeleteItem(spyderSoft.DataLayer.Core.IDataItem)">DeleteItem(IDataItem)</h4>
+  <div class="markdown level1 summary"><p>Delete the item of type <span class="xref">DataItem</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void DeleteItem(IDataItem itemToDelete)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="spyderSoft.DataLayer.Core.IDataItem.html">IDataItem</a></td>
+        <td><span class="parametername">itemToDelete</span></td>
+        <td><p>Item to be deleted</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/spyder007/spydersoft.datalayer.core/new/main/apiSpec/new?filename=spyderSoft_DataLayer_Core_IDataStore_DeleteItems_System_Collections_Generic_IEnumerable_spyderSoft_DataLayer_Core_IDataItem__.md&amp;value=---%0Auid%3A%20spyderSoft.DataLayer.Core.IDataStore.DeleteItems(System.Collections.Generic.IEnumerable%7BspyderSoft.DataLayer.Core.IDataItem%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/spyder007/spydersoft.datalayer.core/blob/main/source/spyderSoft.DataLayer.Core/IDataStore.cs/#L123">View Source</a>
+  </span>
+  <a id="spyderSoft_DataLayer_Core_IDataStore_DeleteItems_" data-uid="spyderSoft.DataLayer.Core.IDataStore.DeleteItems*"></a>
+  <h4 id="spyderSoft_DataLayer_Core_IDataStore_DeleteItems_System_Collections_Generic_IEnumerable_spyderSoft_DataLayer_Core_IDataItem__" data-uid="spyderSoft.DataLayer.Core.IDataStore.DeleteItems(System.Collections.Generic.IEnumerable{spyderSoft.DataLayer.Core.IDataItem})">DeleteItems(IEnumerable&lt;IDataItem&gt;)</h4>
+  <div class="markdown level1 summary"><p>Delete a list of <span class="xref">DataItem</span> items.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void DeleteItems(IEnumerable&lt;IDataItem&gt; itemsToDelete)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="spyderSoft.DataLayer.Core.IDataItem.html">IDataItem</a>&gt;</td>
+        <td><span class="parametername">itemsToDelete</span></td>
+        <td><p>List of items to be deleted</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/spyder007/spydersoft.datalayer.core/new/main/apiSpec/new?filename=spyderSoft_DataLayer_Core_IDataStore_FixDynamicExpression__1_System_Linq_Expressions_Expression_System_Func___0_System_Boolean___.md&amp;value=---%0Auid%3A%20spyderSoft.DataLayer.Core.IDataStore.FixDynamicExpression%60%601(System.Linq.Expressions.Expression%7BSystem.Func%7B%60%600%2CSystem.Boolean%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/spyder007/spydersoft.datalayer.core/blob/main/source/spyderSoft.DataLayer.Core/IDataStore.cs/#L28">View Source</a>
+  </span>
+  <a id="spyderSoft_DataLayer_Core_IDataStore_FixDynamicExpression_" data-uid="spyderSoft.DataLayer.Core.IDataStore.FixDynamicExpression*"></a>
+  <h4 id="spyderSoft_DataLayer_Core_IDataStore_FixDynamicExpression__1_System_Linq_Expressions_Expression_System_Func___0_System_Boolean___" data-uid="spyderSoft.DataLayer.Core.IDataStore.FixDynamicExpression``1(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}})">FixDynamicExpression&lt;TDataContract&gt;(Expression&lt;Func&lt;TDataContract, Boolean&gt;&gt;)</h4>
+  <div class="markdown level1 summary"><p>Takes a predicate that has been built dynamically and resolves all variables.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Expression&lt;Func&lt;TDataContract, bool&gt;&gt; FixDynamicExpression&lt;TDataContract&gt;(Expression&lt;Func&lt;TDataContract, bool&gt;&gt; predicate)
+    where TDataContract : class, IDataItem, new()</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;TDataContract, <span class="xref">System.Boolean</span>&gt;&gt;</td>
+        <td><span class="parametername">predicate</span></td>
+        <td><p>the expression to resolve</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;TDataContract, <span class="xref">System.Boolean</span>&gt;&gt;</td>
+        <td><p>Expression&lt;Func&lt;TDataContract, System.Boolean&gt;&gt;.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TDataContract</span></td>
+        <td><p>The type of the Data Item</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/spyder007/spydersoft.datalayer.core/new/main/apiSpec/new?filename=spyderSoft_DataLayer_Core_IDataStore_GetItem__1_System_Int64_.md&amp;value=---%0Auid%3A%20spyderSoft.DataLayer.Core.IDataStore.GetItem%60%601(System.Int64)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/spyder007/spydersoft.datalayer.core/blob/main/source/spyderSoft.DataLayer.Core/IDataStore.cs/#L37">View Source</a>
+  </span>
+  <a id="spyderSoft_DataLayer_Core_IDataStore_GetItem_" data-uid="spyderSoft.DataLayer.Core.IDataStore.GetItem*"></a>
+  <h4 id="spyderSoft_DataLayer_Core_IDataStore_GetItem__1_System_Int64_" data-uid="spyderSoft.DataLayer.Core.IDataStore.GetItem``1(System.Int64)">GetItem&lt;TDataContract&gt;(Int64)</h4>
+  <div class="markdown level1 summary"><p>Gets Item TDataContract using the Id of the item</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">TDataContract GetItem&lt;TDataContract&gt;(long key)
+    where TDataContract : class, IDataItem, new()</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>Key of the item</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TDataContract</span></td>
+        <td><p>Item of type TDataContract</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TDataContract</span></td>
+        <td><p>Type of item</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/spyder007/spydersoft.datalayer.core/new/main/apiSpec/new?filename=spyderSoft_DataLayer_Core_IDataStore_GetItems__1.md&amp;value=---%0Auid%3A%20spyderSoft.DataLayer.Core.IDataStore.GetItems%60%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/spyder007/spydersoft.datalayer.core/blob/main/source/spyderSoft.DataLayer.Core/IDataStore.cs/#L44">View Source</a>
+  </span>
+  <a id="spyderSoft_DataLayer_Core_IDataStore_GetItems_" data-uid="spyderSoft.DataLayer.Core.IDataStore.GetItems*"></a>
+  <h4 id="spyderSoft_DataLayer_Core_IDataStore_GetItems__1" data-uid="spyderSoft.DataLayer.Core.IDataStore.GetItems``1">GetItems&lt;TDataContract&gt;()</h4>
+  <div class="markdown level1 summary"><p>Gets all Items of type TDataContract</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IEnumerable&lt;TDataContract&gt; GetItems&lt;TDataContract&gt;()
+    where TDataContract : class, IDataItem, new()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TDataContract&gt;</td>
+        <td><p>List of items of type TDataContract, or <code>null</code> if the collection is empty.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TDataContract</span></td>
+        <td><p>Type of item</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/spyder007/spydersoft.datalayer.core/new/main/apiSpec/new?filename=spyderSoft_DataLayer_Core_IDataStore_GetItems__1_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20spyderSoft.DataLayer.Core.IDataStore.GetItems%60%601(System.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/spyder007/spydersoft.datalayer.core/blob/main/source/spyderSoft.DataLayer.Core/IDataStore.cs/#L61">View Source</a>
+  </span>
+  <a id="spyderSoft_DataLayer_Core_IDataStore_GetItems_" data-uid="spyderSoft.DataLayer.Core.IDataStore.GetItems*"></a>
+  <h4 id="spyderSoft_DataLayer_Core_IDataStore_GetItems__1_System_Int32_System_Int32_" data-uid="spyderSoft.DataLayer.Core.IDataStore.GetItems``1(System.Int32,System.Int32)">GetItems&lt;TDataContract&gt;(Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Gets all items of type TDataContract skipping the number of items specified by skip then taking the number of
+items specified by take.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IEnumerable&lt;TDataContract&gt; GetItems&lt;TDataContract&gt;(int skip, int take)
+    where TDataContract : class, IDataItem, new()</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">skip</span></td>
+        <td><p>The number of items to skip before taking items to return.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">take</span></td>
+        <td><p>The number of items to take or return.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TDataContract&gt;</td>
+        <td><p>List of items of type TDataContract, or <code>null</code> if the collection is empty.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TDataContract</span></td>
+        <td><p>Type of the item.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/spyder007/spydersoft.datalayer.core/new/main/apiSpec/new?filename=spyderSoft_DataLayer_Core_IDataStore_GetItems__1_System_Linq_Expressions_Expression_System_Func___0_System_Boolean___.md&amp;value=---%0Auid%3A%20spyderSoft.DataLayer.Core.IDataStore.GetItems%60%601(System.Linq.Expressions.Expression%7BSystem.Func%7B%60%600%2CSystem.Boolean%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/spyder007/spydersoft.datalayer.core/blob/main/source/spyderSoft.DataLayer.Core/IDataStore.cs/#L69">View Source</a>
+  </span>
+  <a id="spyderSoft_DataLayer_Core_IDataStore_GetItems_" data-uid="spyderSoft.DataLayer.Core.IDataStore.GetItems*"></a>
+  <h4 id="spyderSoft_DataLayer_Core_IDataStore_GetItems__1_System_Linq_Expressions_Expression_System_Func___0_System_Boolean___" data-uid="spyderSoft.DataLayer.Core.IDataStore.GetItems``1(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}})">GetItems&lt;TDataContract&gt;(Expression&lt;Func&lt;TDataContract, Boolean&gt;&gt;)</h4>
+  <div class="markdown level1 summary"><p>Gets All items of type TDataContract using a LINQ predicate</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IEnumerable&lt;TDataContract&gt; GetItems&lt;TDataContract&gt;(Expression&lt;Func&lt;TDataContract, bool&gt;&gt; predicate)
+    where TDataContract : class, IDataItem, new()</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;TDataContract, <span class="xref">System.Boolean</span>&gt;&gt;</td>
+        <td><span class="parametername">predicate</span></td>
+        <td><p>The predicate.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TDataContract&gt;</td>
+        <td><p>List of items of type TDataContract, or <code>null</code> if the collection is empty.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TDataContract</span></td>
+        <td><p>Type of item</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/spyder007/spydersoft.datalayer.core/new/main/apiSpec/new?filename=spyderSoft_DataLayer_Core_IDataStore_GetItems__1_System_Linq_Expressions_Expression_System_Func___0_System_Boolean___System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20spyderSoft.DataLayer.Core.IDataStore.GetItems%60%601(System.Linq.Expressions.Expression%7BSystem.Func%7B%60%600%2CSystem.Boolean%7D%7D%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/spyder007/spydersoft.datalayer.core/blob/main/source/spyderSoft.DataLayer.Core/IDataStore.cs/#L80">View Source</a>
+  </span>
+  <a id="spyderSoft_DataLayer_Core_IDataStore_GetItems_" data-uid="spyderSoft.DataLayer.Core.IDataStore.GetItems*"></a>
+  <h4 id="spyderSoft_DataLayer_Core_IDataStore_GetItems__1_System_Linq_Expressions_Expression_System_Func___0_System_Boolean___System_Int32_System_Int32_" data-uid="spyderSoft.DataLayer.Core.IDataStore.GetItems``1(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}},System.Int32,System.Int32)">GetItems&lt;TDataContract&gt;(Expression&lt;Func&lt;TDataContract, Boolean&gt;&gt;, Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Gets all items of type TDataContract using a LINQ predicate skipping the number of items specified by <code data-dev-comment-type="paramref" class="paramref">skip</code>
+then taking the number of items specified by <code data-dev-comment-type="paramref" class="paramref">take</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IEnumerable&lt;TDataContract&gt; GetItems&lt;TDataContract&gt;(Expression&lt;Func&lt;TDataContract, bool&gt;&gt; predicate, int skip, int take)
+    where TDataContract : class, IDataItem, new()</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;TDataContract, <span class="xref">System.Boolean</span>&gt;&gt;</td>
+        <td><span class="parametername">predicate</span></td>
+        <td><p>The predicate.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">skip</span></td>
+        <td><p>The number of items to skip before taking items to return.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">take</span></td>
+        <td><p>The number of items to take or return.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TDataContract&gt;</td>
+        <td><p>List of items of type TDataContract, or <code>null</code> if the collection is empty.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TDataContract</span></td>
+        <td><p>Type of item</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/spyder007/spydersoft.datalayer.core/new/main/apiSpec/new?filename=spyderSoft_DataLayer_Core_IDataStore_GetItemsCount__1.md&amp;value=---%0Auid%3A%20spyderSoft.DataLayer.Core.IDataStore.GetItemsCount%60%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/spyder007/spydersoft.datalayer.core/blob/main/source/spyderSoft.DataLayer.Core/IDataStore.cs/#L87">View Source</a>
+  </span>
+  <a id="spyderSoft_DataLayer_Core_IDataStore_GetItemsCount_" data-uid="spyderSoft.DataLayer.Core.IDataStore.GetItemsCount*"></a>
+  <h4 id="spyderSoft_DataLayer_Core_IDataStore_GetItemsCount__1" data-uid="spyderSoft.DataLayer.Core.IDataStore.GetItemsCount``1">GetItemsCount&lt;TDataContract&gt;()</h4>
+  <div class="markdown level1 summary"><p>Gets the count of all items of type TDataContract</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int GetItemsCount&lt;TDataContract&gt;()
+    where TDataContract : class, IDataItem, new()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Count of items</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TDataContract</span></td>
+        <td><p>Type of item</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/spyder007/spydersoft.datalayer.core/new/main/apiSpec/new?filename=spyderSoft_DataLayer_Core_IDataStore_GetItemsCount__1_System_Linq_Expressions_Expression_System_Func___0_System_Boolean___.md&amp;value=---%0Auid%3A%20spyderSoft.DataLayer.Core.IDataStore.GetItemsCount%60%601(System.Linq.Expressions.Expression%7BSystem.Func%7B%60%600%2CSystem.Boolean%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/spyder007/spydersoft.datalayer.core/blob/main/source/spyderSoft.DataLayer.Core/IDataStore.cs/#L95">View Source</a>
+  </span>
+  <a id="spyderSoft_DataLayer_Core_IDataStore_GetItemsCount_" data-uid="spyderSoft.DataLayer.Core.IDataStore.GetItemsCount*"></a>
+  <h4 id="spyderSoft_DataLayer_Core_IDataStore_GetItemsCount__1_System_Linq_Expressions_Expression_System_Func___0_System_Boolean___" data-uid="spyderSoft.DataLayer.Core.IDataStore.GetItemsCount``1(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}})">GetItemsCount&lt;TDataContract&gt;(Expression&lt;Func&lt;TDataContract, Boolean&gt;&gt;)</h4>
+  <div class="markdown level1 summary"><p>Gets the count of all items of type TDataContract matching LINQ predicate</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int GetItemsCount&lt;TDataContract&gt;(Expression&lt;Func&lt;TDataContract, bool&gt;&gt; predicate)
+    where TDataContract : class, IDataItem, new()</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;TDataContract, <span class="xref">System.Boolean</span>&gt;&gt;</td>
+        <td><span class="parametername">predicate</span></td>
+        <td><p>query predicate</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Count of items</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TDataContract</span></td>
+        <td><p>Type of item</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/spyder007/spydersoft.datalayer.core/new/main/apiSpec/new?filename=spyderSoft_DataLayer_Core_IDataStore_GetItemsQueryable__1.md&amp;value=---%0Auid%3A%20spyderSoft.DataLayer.Core.IDataStore.GetItemsQueryable%60%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/spyder007/spydersoft.datalayer.core/blob/main/source/spyderSoft.DataLayer.Core/IDataStore.cs/#L51">View Source</a>
+  </span>
+  <a id="spyderSoft_DataLayer_Core_IDataStore_GetItemsQueryable_" data-uid="spyderSoft.DataLayer.Core.IDataStore.GetItemsQueryable*"></a>
+  <h4 id="spyderSoft_DataLayer_Core_IDataStore_GetItemsQueryable__1" data-uid="spyderSoft.DataLayer.Core.IDataStore.GetItemsQueryable``1">GetItemsQueryable&lt;TDataContract&gt;()</h4>
+  <div class="markdown level1 summary"><p>Gets the items queryable.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IQueryable&lt;TDataContract&gt; GetItemsQueryable&lt;TDataContract&gt;()
+    where TDataContract : class, IDataItem, new()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Linq.IQueryable</span>&lt;TDataContract&gt;</td>
+        <td><p>IQueryable&lt;TDataContract&gt;.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TDataContract</span></td>
+        <td><p>The type of the t data contract.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/spyder007/spydersoft.datalayer.core/new/main/apiSpec/new?filename=spyderSoft_DataLayer_Core_IDataStore_SaveItem__1___0_.md&amp;value=---%0Auid%3A%20spyderSoft.DataLayer.Core.IDataStore.SaveItem%60%601(%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/spyder007/spydersoft.datalayer.core/blob/main/source/spyderSoft.DataLayer.Core/IDataStore.cs/#L103">View Source</a>
+  </span>
+  <a id="spyderSoft_DataLayer_Core_IDataStore_SaveItem_" data-uid="spyderSoft.DataLayer.Core.IDataStore.SaveItem*"></a>
+  <h4 id="spyderSoft_DataLayer_Core_IDataStore_SaveItem__1___0_" data-uid="spyderSoft.DataLayer.Core.IDataStore.SaveItem``1(``0)">SaveItem&lt;TDataContract&gt;(TDataContract)</h4>
+  <div class="markdown level1 summary"><p>Save the item of type TDataContract</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">TDataContract SaveItem&lt;TDataContract&gt;(TDataContract itemToSave)
+    where TDataContract : class, IDataItem, new()</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TDataContract</span></td>
+        <td><span class="parametername">itemToSave</span></td>
+        <td><p>item to be saved</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TDataContract</span></td>
+        <td><p>TDataContract.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TDataContract</span></td>
+        <td><p>Type of item</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/spyder007/spydersoft.datalayer.core/new/main/apiSpec/new?filename=spyderSoft_DataLayer_Core_IDataStore_SaveItems__1_System_Collections_Generic_IEnumerable___0__.md&amp;value=---%0Auid%3A%20spyderSoft.DataLayer.Core.IDataStore.SaveItems%60%601(System.Collections.Generic.IEnumerable%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/spyder007/spydersoft.datalayer.core/blob/main/source/spyderSoft.DataLayer.Core/IDataStore.cs/#L111">View Source</a>
+  </span>
+  <a id="spyderSoft_DataLayer_Core_IDataStore_SaveItems_" data-uid="spyderSoft.DataLayer.Core.IDataStore.SaveItems*"></a>
+  <h4 id="spyderSoft_DataLayer_Core_IDataStore_SaveItems__1_System_Collections_Generic_IEnumerable___0__" data-uid="spyderSoft.DataLayer.Core.IDataStore.SaveItems``1(System.Collections.Generic.IEnumerable{``0})">SaveItems&lt;TDataContract&gt;(IEnumerable&lt;TDataContract&gt;)</h4>
+  <div class="markdown level1 summary"><p>Save the list of items of type TDataContract</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IEnumerable&lt;TDataContract&gt; SaveItems&lt;TDataContract&gt;(IEnumerable&lt;TDataContract&gt; itemsToSave)
+    where TDataContract : class, IDataItem, new()</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TDataContract&gt;</td>
+        <td><span class="parametername">itemsToSave</span></td>
+        <td><p>List of items to be saved</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TDataContract&gt;</td>
+        <td><p>IEnumerable&lt;TDataContract&gt;.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TDataContract</span></td>
+        <td><p>Type of item</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/spyder007/spydersoft.datalayer.core/new/main/apiSpec/new?filename=spyderSoft_DataLayer_Core_IDataStore.md&amp;value=---%0Auid%3A%20spyderSoft.DataLayer.Core.IDataStore%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/spyder007/spydersoft.datalayer.core/blob/main/source/spyderSoft.DataLayer.Core/IDataStore.cs/#L13" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

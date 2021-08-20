@@ -1,0 +1,110 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Spydersoft.DataLayer.Core </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Spydersoft.DataLayer.Core ">
+    <meta name="generator" content="docfx 2.58.0.0">
+    
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/docfx.vendor.css">
+    <link rel="stylesheet" href="styles/docfx.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="index.html">
+                <img id="logo" class="svg" src="logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="article row grid">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="spydersoftdatalayercore">Spydersoft.DataLayer.Core</h1>
+
+<h2 id="purpose">Purpose</h2>
+<p>This class library provides the basic interfaces and classes necessary to support a storage-agnostic data layer with observable data items.</p>
+<p>The main interfaces are <a class="xref" href="api/spyderSoft.DataLayer.Core.IDataItem.html">IDataItem</a> and <a class="xref" href="api/spyderSoft.DataLayer.Core.IDataStore.html">IDataStore</a>, with the latter providing the contract for CRUD operations on the former.  <a class="xref" href="api/spyderSoft.DataLayer.Core.DataItem.html">DataItem</a> is a basic implementation of <a class="xref" href="api/spyderSoft.DataLayer.Core.IDataItem.html">IDataItem</a> which provides functions to raise the <a class="xref" href="api/spyderSoft.DataLayer.Core.DataItem.html#spyderSoft_DataLayer_Core_DataItem_ValueChanged">ValueChanged</a> event in derived classes.</p>
+<p>The <a class="xref" href="api/spyderSoft.DataLayer.Core.Attributes.html">IDataItem</a> namespace provides ORM-agnostic attributes for marking up instances of <a class="xref" href="api/spyderSoft.DataLayer.Core.IDataItem.html">IDataItem</a> for <a class="xref" href="api/spyderSoft.DataLayer.Core.IDataStore.html">IDataStore</a> instances to use for data store initialization and CRUD operations.</p>
+<h2 id="examples">Examples</h2>
+<p><a href="https://github.com/spyder007/spydersoft.datalayer.core.entityframework">spydersoft.datalayer.core.entityframework</a> is an implementation of <a class="xref" href="api/spyderSoft.DataLayer.Core.IDataStore.html">IDataStore</a> which utilizes EntityFramework.Core for CRUD operations on a SQL database.  Ideas for additional implementations include implementations for SQLite, couchDB, MongoDB, or even basic file-based JSON or XML storage.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/spyder007/spydersoft.datalayer.core/blob/main/docs/index.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="styles/docfx.js"></script>
+    <script type="text/javascript" src="styles/main.js"></script>
+  </body>
+</html>

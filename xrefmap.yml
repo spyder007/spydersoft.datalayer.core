@@ -1,0 +1,503 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: spyderSoft.DataLayer.Core
+  name: spyderSoft.DataLayer.Core
+  href: api/spyderSoft.DataLayer.Core.html
+  commentId: N:spyderSoft.DataLayer.Core
+  fullName: spyderSoft.DataLayer.Core
+  nameWithType: spyderSoft.DataLayer.Core
+- uid: spyderSoft.DataLayer.Core.Attributes
+  name: spyderSoft.DataLayer.Core.Attributes
+  href: api/spyderSoft.DataLayer.Core.Attributes.html
+  commentId: N:spyderSoft.DataLayer.Core.Attributes
+  fullName: spyderSoft.DataLayer.Core.Attributes
+  nameWithType: spyderSoft.DataLayer.Core.Attributes
+- uid: spyderSoft.DataLayer.Core.Attributes.ColumnNameAttribute
+  name: ColumnNameAttribute
+  href: api/spyderSoft.DataLayer.Core.Attributes.ColumnNameAttribute.html
+  commentId: T:spyderSoft.DataLayer.Core.Attributes.ColumnNameAttribute
+  fullName: spyderSoft.DataLayer.Core.Attributes.ColumnNameAttribute
+  nameWithType: ColumnNameAttribute
+- uid: spyderSoft.DataLayer.Core.Attributes.ColumnNameAttribute.#ctor(System.String)
+  name: ColumnNameAttribute(String)
+  href: api/spyderSoft.DataLayer.Core.Attributes.ColumnNameAttribute.html#spyderSoft_DataLayer_Core_Attributes_ColumnNameAttribute__ctor_System_String_
+  commentId: M:spyderSoft.DataLayer.Core.Attributes.ColumnNameAttribute.#ctor(System.String)
+  fullName: spyderSoft.DataLayer.Core.Attributes.ColumnNameAttribute.ColumnNameAttribute(System.String)
+  nameWithType: ColumnNameAttribute.ColumnNameAttribute(String)
+- uid: spyderSoft.DataLayer.Core.Attributes.ColumnNameAttribute.#ctor*
+  name: ColumnNameAttribute
+  href: api/spyderSoft.DataLayer.Core.Attributes.ColumnNameAttribute.html#spyderSoft_DataLayer_Core_Attributes_ColumnNameAttribute__ctor_
+  commentId: Overload:spyderSoft.DataLayer.Core.Attributes.ColumnNameAttribute.#ctor
+  isSpec: "True"
+  fullName: spyderSoft.DataLayer.Core.Attributes.ColumnNameAttribute.ColumnNameAttribute
+  nameWithType: ColumnNameAttribute.ColumnNameAttribute
+- uid: spyderSoft.DataLayer.Core.Attributes.ColumnNameAttribute.Name
+  name: Name
+  href: api/spyderSoft.DataLayer.Core.Attributes.ColumnNameAttribute.html#spyderSoft_DataLayer_Core_Attributes_ColumnNameAttribute_Name
+  commentId: P:spyderSoft.DataLayer.Core.Attributes.ColumnNameAttribute.Name
+  fullName: spyderSoft.DataLayer.Core.Attributes.ColumnNameAttribute.Name
+  nameWithType: ColumnNameAttribute.Name
+- uid: spyderSoft.DataLayer.Core.Attributes.ColumnNameAttribute.Name*
+  name: Name
+  href: api/spyderSoft.DataLayer.Core.Attributes.ColumnNameAttribute.html#spyderSoft_DataLayer_Core_Attributes_ColumnNameAttribute_Name_
+  commentId: Overload:spyderSoft.DataLayer.Core.Attributes.ColumnNameAttribute.Name
+  isSpec: "True"
+  fullName: spyderSoft.DataLayer.Core.Attributes.ColumnNameAttribute.Name
+  nameWithType: ColumnNameAttribute.Name
+- uid: spyderSoft.DataLayer.Core.Attributes.IgnorePropertyAttribute
+  name: IgnorePropertyAttribute
+  href: api/spyderSoft.DataLayer.Core.Attributes.IgnorePropertyAttribute.html
+  commentId: T:spyderSoft.DataLayer.Core.Attributes.IgnorePropertyAttribute
+  fullName: spyderSoft.DataLayer.Core.Attributes.IgnorePropertyAttribute
+  nameWithType: IgnorePropertyAttribute
+- uid: spyderSoft.DataLayer.Core.Attributes.KeyAttribute
+  name: KeyAttribute
+  href: api/spyderSoft.DataLayer.Core.Attributes.KeyAttribute.html
+  commentId: T:spyderSoft.DataLayer.Core.Attributes.KeyAttribute
+  fullName: spyderSoft.DataLayer.Core.Attributes.KeyAttribute
+  nameWithType: KeyAttribute
+- uid: spyderSoft.DataLayer.Core.Attributes.TableAttribute
+  name: TableAttribute
+  href: api/spyderSoft.DataLayer.Core.Attributes.TableAttribute.html
+  commentId: T:spyderSoft.DataLayer.Core.Attributes.TableAttribute
+  fullName: spyderSoft.DataLayer.Core.Attributes.TableAttribute
+  nameWithType: TableAttribute
+- uid: spyderSoft.DataLayer.Core.Attributes.TableAttribute.#ctor(System.String)
+  name: TableAttribute(String)
+  href: api/spyderSoft.DataLayer.Core.Attributes.TableAttribute.html#spyderSoft_DataLayer_Core_Attributes_TableAttribute__ctor_System_String_
+  commentId: M:spyderSoft.DataLayer.Core.Attributes.TableAttribute.#ctor(System.String)
+  fullName: spyderSoft.DataLayer.Core.Attributes.TableAttribute.TableAttribute(System.String)
+  nameWithType: TableAttribute.TableAttribute(String)
+- uid: spyderSoft.DataLayer.Core.Attributes.TableAttribute.#ctor*
+  name: TableAttribute
+  href: api/spyderSoft.DataLayer.Core.Attributes.TableAttribute.html#spyderSoft_DataLayer_Core_Attributes_TableAttribute__ctor_
+  commentId: Overload:spyderSoft.DataLayer.Core.Attributes.TableAttribute.#ctor
+  isSpec: "True"
+  fullName: spyderSoft.DataLayer.Core.Attributes.TableAttribute.TableAttribute
+  nameWithType: TableAttribute.TableAttribute
+- uid: spyderSoft.DataLayer.Core.Attributes.TableAttribute.Name
+  name: Name
+  href: api/spyderSoft.DataLayer.Core.Attributes.TableAttribute.html#spyderSoft_DataLayer_Core_Attributes_TableAttribute_Name
+  commentId: P:spyderSoft.DataLayer.Core.Attributes.TableAttribute.Name
+  fullName: spyderSoft.DataLayer.Core.Attributes.TableAttribute.Name
+  nameWithType: TableAttribute.Name
+- uid: spyderSoft.DataLayer.Core.Attributes.TableAttribute.Name*
+  name: Name
+  href: api/spyderSoft.DataLayer.Core.Attributes.TableAttribute.html#spyderSoft_DataLayer_Core_Attributes_TableAttribute_Name_
+  commentId: Overload:spyderSoft.DataLayer.Core.Attributes.TableAttribute.Name
+  isSpec: "True"
+  fullName: spyderSoft.DataLayer.Core.Attributes.TableAttribute.Name
+  nameWithType: TableAttribute.Name
+- uid: spyderSoft.DataLayer.Core.DataItem
+  name: DataItem
+  href: api/spyderSoft.DataLayer.Core.DataItem.html
+  commentId: T:spyderSoft.DataLayer.Core.DataItem
+  fullName: spyderSoft.DataLayer.Core.DataItem
+  nameWithType: DataItem
+- uid: spyderSoft.DataLayer.Core.DataItem.GetPropertyName*
+  name: GetPropertyName
+  href: api/spyderSoft.DataLayer.Core.DataItem.html#spyderSoft_DataLayer_Core_DataItem_GetPropertyName_
+  commentId: Overload:spyderSoft.DataLayer.Core.DataItem.GetPropertyName
+  isSpec: "True"
+  fullName: spyderSoft.DataLayer.Core.DataItem.GetPropertyName
+  nameWithType: DataItem.GetPropertyName
+- uid: spyderSoft.DataLayer.Core.DataItem.GetPropertyName``1(System.Linq.Expressions.Expression{System.Func{``0}})
+  name: GetPropertyName<T>(Expression<Func<T>>)
+  href: api/spyderSoft.DataLayer.Core.DataItem.html#spyderSoft_DataLayer_Core_DataItem_GetPropertyName__1_System_Linq_Expressions_Expression_System_Func___0___
+  commentId: M:spyderSoft.DataLayer.Core.DataItem.GetPropertyName``1(System.Linq.Expressions.Expression{System.Func{``0}})
+  name.vb: GetPropertyName(Of T)(Expression(Of Func(Of T)))
+  fullName: spyderSoft.DataLayer.Core.DataItem.GetPropertyName<T>(System.Linq.Expressions.Expression<System.Func<T>>)
+  fullName.vb: spyderSoft.DataLayer.Core.DataItem.GetPropertyName(Of T)(System.Linq.Expressions.Expression(Of System.Func(Of T)))
+  nameWithType: DataItem.GetPropertyName<T>(Expression<Func<T>>)
+  nameWithType.vb: DataItem.GetPropertyName(Of T)(Expression(Of Func(Of T)))
+- uid: spyderSoft.DataLayer.Core.DataItem.Id
+  name: Id
+  href: api/spyderSoft.DataLayer.Core.DataItem.html#spyderSoft_DataLayer_Core_DataItem_Id
+  commentId: P:spyderSoft.DataLayer.Core.DataItem.Id
+  fullName: spyderSoft.DataLayer.Core.DataItem.Id
+  nameWithType: DataItem.Id
+- uid: spyderSoft.DataLayer.Core.DataItem.Id*
+  name: Id
+  href: api/spyderSoft.DataLayer.Core.DataItem.html#spyderSoft_DataLayer_Core_DataItem_Id_
+  commentId: Overload:spyderSoft.DataLayer.Core.DataItem.Id
+  isSpec: "True"
+  fullName: spyderSoft.DataLayer.Core.DataItem.Id
+  nameWithType: DataItem.Id
+- uid: spyderSoft.DataLayer.Core.DataItem.RaiseValueChanged(System.String)
+  name: RaiseValueChanged(String)
+  href: api/spyderSoft.DataLayer.Core.DataItem.html#spyderSoft_DataLayer_Core_DataItem_RaiseValueChanged_System_String_
+  commentId: M:spyderSoft.DataLayer.Core.DataItem.RaiseValueChanged(System.String)
+  fullName: spyderSoft.DataLayer.Core.DataItem.RaiseValueChanged(System.String)
+  nameWithType: DataItem.RaiseValueChanged(String)
+- uid: spyderSoft.DataLayer.Core.DataItem.RaiseValueChanged*
+  name: RaiseValueChanged
+  href: api/spyderSoft.DataLayer.Core.DataItem.html#spyderSoft_DataLayer_Core_DataItem_RaiseValueChanged_
+  commentId: Overload:spyderSoft.DataLayer.Core.DataItem.RaiseValueChanged
+  isSpec: "True"
+  fullName: spyderSoft.DataLayer.Core.DataItem.RaiseValueChanged
+  nameWithType: DataItem.RaiseValueChanged
+- uid: spyderSoft.DataLayer.Core.DataItem.RaiseValueChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+  name: RaiseValueChanged<TPropertyReturnType>(Expression<Func<TPropertyReturnType>>)
+  href: api/spyderSoft.DataLayer.Core.DataItem.html#spyderSoft_DataLayer_Core_DataItem_RaiseValueChanged__1_System_Linq_Expressions_Expression_System_Func___0___
+  commentId: M:spyderSoft.DataLayer.Core.DataItem.RaiseValueChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})
+  name.vb: RaiseValueChanged(Of TPropertyReturnType)(Expression(Of Func(Of TPropertyReturnType)))
+  fullName: spyderSoft.DataLayer.Core.DataItem.RaiseValueChanged<TPropertyReturnType>(System.Linq.Expressions.Expression<System.Func<TPropertyReturnType>>)
+  fullName.vb: spyderSoft.DataLayer.Core.DataItem.RaiseValueChanged(Of TPropertyReturnType)(System.Linq.Expressions.Expression(Of System.Func(Of TPropertyReturnType)))
+  nameWithType: DataItem.RaiseValueChanged<TPropertyReturnType>(Expression<Func<TPropertyReturnType>>)
+  nameWithType.vb: DataItem.RaiseValueChanged(Of TPropertyReturnType)(Expression(Of Func(Of TPropertyReturnType)))
+- uid: spyderSoft.DataLayer.Core.DataItem.SetPropertyField*
+  name: SetPropertyField
+  href: api/spyderSoft.DataLayer.Core.DataItem.html#spyderSoft_DataLayer_Core_DataItem_SetPropertyField_
+  commentId: Overload:spyderSoft.DataLayer.Core.DataItem.SetPropertyField
+  isSpec: "True"
+  fullName: spyderSoft.DataLayer.Core.DataItem.SetPropertyField
+  nameWithType: DataItem.SetPropertyField
+- uid: spyderSoft.DataLayer.Core.DataItem.SetPropertyField``1(System.String,``0@,``0)
+  name: SetPropertyField<T>(String, ref T, T)
+  href: api/spyderSoft.DataLayer.Core.DataItem.html#spyderSoft_DataLayer_Core_DataItem_SetPropertyField__1_System_String___0____0_
+  commentId: M:spyderSoft.DataLayer.Core.DataItem.SetPropertyField``1(System.String,``0@,``0)
+  name.vb: SetPropertyField(Of T)(String, ByRef T, T)
+  fullName: spyderSoft.DataLayer.Core.DataItem.SetPropertyField<T>(System.String, ref T, T)
+  fullName.vb: spyderSoft.DataLayer.Core.DataItem.SetPropertyField(Of T)(System.String, ByRef T, T)
+  nameWithType: DataItem.SetPropertyField<T>(String, ref T, T)
+  nameWithType.vb: DataItem.SetPropertyField(Of T)(String, ByRef T, T)
+- uid: spyderSoft.DataLayer.Core.DataItem.ValueChanged
+  name: ValueChanged
+  href: api/spyderSoft.DataLayer.Core.DataItem.html#spyderSoft_DataLayer_Core_DataItem_ValueChanged
+  commentId: E:spyderSoft.DataLayer.Core.DataItem.ValueChanged
+  fullName: spyderSoft.DataLayer.Core.DataItem.ValueChanged
+  nameWithType: DataItem.ValueChanged
+- uid: spyderSoft.DataLayer.Core.DataItemEventArgs
+  name: DataItemEventArgs
+  href: api/spyderSoft.DataLayer.Core.DataItemEventArgs.html
+  commentId: T:spyderSoft.DataLayer.Core.DataItemEventArgs
+  fullName: spyderSoft.DataLayer.Core.DataItemEventArgs
+  nameWithType: DataItemEventArgs
+- uid: spyderSoft.DataLayer.Core.DataItemEventArgs.#ctor(System.String)
+  name: DataItemEventArgs(String)
+  href: api/spyderSoft.DataLayer.Core.DataItemEventArgs.html#spyderSoft_DataLayer_Core_DataItemEventArgs__ctor_System_String_
+  commentId: M:spyderSoft.DataLayer.Core.DataItemEventArgs.#ctor(System.String)
+  fullName: spyderSoft.DataLayer.Core.DataItemEventArgs.DataItemEventArgs(System.String)
+  nameWithType: DataItemEventArgs.DataItemEventArgs(String)
+- uid: spyderSoft.DataLayer.Core.DataItemEventArgs.#ctor*
+  name: DataItemEventArgs
+  href: api/spyderSoft.DataLayer.Core.DataItemEventArgs.html#spyderSoft_DataLayer_Core_DataItemEventArgs__ctor_
+  commentId: Overload:spyderSoft.DataLayer.Core.DataItemEventArgs.#ctor
+  isSpec: "True"
+  fullName: spyderSoft.DataLayer.Core.DataItemEventArgs.DataItemEventArgs
+  nameWithType: DataItemEventArgs.DataItemEventArgs
+- uid: spyderSoft.DataLayer.Core.Exceptions
+  name: spyderSoft.DataLayer.Core.Exceptions
+  href: api/spyderSoft.DataLayer.Core.Exceptions.html
+  commentId: N:spyderSoft.DataLayer.Core.Exceptions
+  fullName: spyderSoft.DataLayer.Core.Exceptions
+  nameWithType: spyderSoft.DataLayer.Core.Exceptions
+- uid: spyderSoft.DataLayer.Core.Exceptions.DataException
+  name: DataException
+  href: api/spyderSoft.DataLayer.Core.Exceptions.DataException.html
+  commentId: T:spyderSoft.DataLayer.Core.Exceptions.DataException
+  fullName: spyderSoft.DataLayer.Core.Exceptions.DataException
+  nameWithType: DataException
+- uid: spyderSoft.DataLayer.Core.Exceptions.DataException.#ctor
+  name: DataException()
+  href: api/spyderSoft.DataLayer.Core.Exceptions.DataException.html#spyderSoft_DataLayer_Core_Exceptions_DataException__ctor
+  commentId: M:spyderSoft.DataLayer.Core.Exceptions.DataException.#ctor
+  fullName: spyderSoft.DataLayer.Core.Exceptions.DataException.DataException()
+  nameWithType: DataException.DataException()
+- uid: spyderSoft.DataLayer.Core.Exceptions.DataException.#ctor(System.String)
+  name: DataException(String)
+  href: api/spyderSoft.DataLayer.Core.Exceptions.DataException.html#spyderSoft_DataLayer_Core_Exceptions_DataException__ctor_System_String_
+  commentId: M:spyderSoft.DataLayer.Core.Exceptions.DataException.#ctor(System.String)
+  fullName: spyderSoft.DataLayer.Core.Exceptions.DataException.DataException(System.String)
+  nameWithType: DataException.DataException(String)
+- uid: spyderSoft.DataLayer.Core.Exceptions.DataException.#ctor(System.String,System.Exception)
+  name: DataException(String, Exception)
+  href: api/spyderSoft.DataLayer.Core.Exceptions.DataException.html#spyderSoft_DataLayer_Core_Exceptions_DataException__ctor_System_String_System_Exception_
+  commentId: M:spyderSoft.DataLayer.Core.Exceptions.DataException.#ctor(System.String,System.Exception)
+  fullName: spyderSoft.DataLayer.Core.Exceptions.DataException.DataException(System.String, System.Exception)
+  nameWithType: DataException.DataException(String, Exception)
+- uid: spyderSoft.DataLayer.Core.Exceptions.DataException.#ctor*
+  name: DataException
+  href: api/spyderSoft.DataLayer.Core.Exceptions.DataException.html#spyderSoft_DataLayer_Core_Exceptions_DataException__ctor_
+  commentId: Overload:spyderSoft.DataLayer.Core.Exceptions.DataException.#ctor
+  isSpec: "True"
+  fullName: spyderSoft.DataLayer.Core.Exceptions.DataException.DataException
+  nameWithType: DataException.DataException
+- uid: spyderSoft.DataLayer.Core.Exceptions.ValidationException
+  name: ValidationException
+  href: api/spyderSoft.DataLayer.Core.Exceptions.ValidationException.html
+  commentId: T:spyderSoft.DataLayer.Core.Exceptions.ValidationException
+  fullName: spyderSoft.DataLayer.Core.Exceptions.ValidationException
+  nameWithType: ValidationException
+- uid: spyderSoft.DataLayer.Core.Exceptions.ValidationException.#ctor
+  name: ValidationException()
+  href: api/spyderSoft.DataLayer.Core.Exceptions.ValidationException.html#spyderSoft_DataLayer_Core_Exceptions_ValidationException__ctor
+  commentId: M:spyderSoft.DataLayer.Core.Exceptions.ValidationException.#ctor
+  fullName: spyderSoft.DataLayer.Core.Exceptions.ValidationException.ValidationException()
+  nameWithType: ValidationException.ValidationException()
+- uid: spyderSoft.DataLayer.Core.Exceptions.ValidationException.#ctor(System.String)
+  name: ValidationException(String)
+  href: api/spyderSoft.DataLayer.Core.Exceptions.ValidationException.html#spyderSoft_DataLayer_Core_Exceptions_ValidationException__ctor_System_String_
+  commentId: M:spyderSoft.DataLayer.Core.Exceptions.ValidationException.#ctor(System.String)
+  fullName: spyderSoft.DataLayer.Core.Exceptions.ValidationException.ValidationException(System.String)
+  nameWithType: ValidationException.ValidationException(String)
+- uid: spyderSoft.DataLayer.Core.Exceptions.ValidationException.#ctor(System.String,System.Exception)
+  name: ValidationException(String, Exception)
+  href: api/spyderSoft.DataLayer.Core.Exceptions.ValidationException.html#spyderSoft_DataLayer_Core_Exceptions_ValidationException__ctor_System_String_System_Exception_
+  commentId: M:spyderSoft.DataLayer.Core.Exceptions.ValidationException.#ctor(System.String,System.Exception)
+  fullName: spyderSoft.DataLayer.Core.Exceptions.ValidationException.ValidationException(System.String, System.Exception)
+  nameWithType: ValidationException.ValidationException(String, Exception)
+- uid: spyderSoft.DataLayer.Core.Exceptions.ValidationException.#ctor*
+  name: ValidationException
+  href: api/spyderSoft.DataLayer.Core.Exceptions.ValidationException.html#spyderSoft_DataLayer_Core_Exceptions_ValidationException__ctor_
+  commentId: Overload:spyderSoft.DataLayer.Core.Exceptions.ValidationException.#ctor
+  isSpec: "True"
+  fullName: spyderSoft.DataLayer.Core.Exceptions.ValidationException.ValidationException
+  nameWithType: ValidationException.ValidationException
+- uid: spyderSoft.DataLayer.Core.IDataItem
+  name: IDataItem
+  href: api/spyderSoft.DataLayer.Core.IDataItem.html
+  commentId: T:spyderSoft.DataLayer.Core.IDataItem
+  fullName: spyderSoft.DataLayer.Core.IDataItem
+  nameWithType: IDataItem
+- uid: spyderSoft.DataLayer.Core.IDataItem.Id
+  name: Id
+  href: api/spyderSoft.DataLayer.Core.IDataItem.html#spyderSoft_DataLayer_Core_IDataItem_Id
+  commentId: P:spyderSoft.DataLayer.Core.IDataItem.Id
+  fullName: spyderSoft.DataLayer.Core.IDataItem.Id
+  nameWithType: IDataItem.Id
+- uid: spyderSoft.DataLayer.Core.IDataItem.Id*
+  name: Id
+  href: api/spyderSoft.DataLayer.Core.IDataItem.html#spyderSoft_DataLayer_Core_IDataItem_Id_
+  commentId: Overload:spyderSoft.DataLayer.Core.IDataItem.Id
+  isSpec: "True"
+  fullName: spyderSoft.DataLayer.Core.IDataItem.Id
+  nameWithType: IDataItem.Id
+- uid: spyderSoft.DataLayer.Core.IDataItem.ValueChanged
+  name: ValueChanged
+  href: api/spyderSoft.DataLayer.Core.IDataItem.html#spyderSoft_DataLayer_Core_IDataItem_ValueChanged
+  commentId: E:spyderSoft.DataLayer.Core.IDataItem.ValueChanged
+  fullName: spyderSoft.DataLayer.Core.IDataItem.ValueChanged
+  nameWithType: IDataItem.ValueChanged
+- uid: spyderSoft.DataLayer.Core.IDataStore
+  name: IDataStore
+  href: api/spyderSoft.DataLayer.Core.IDataStore.html
+  commentId: T:spyderSoft.DataLayer.Core.IDataStore
+  fullName: spyderSoft.DataLayer.Core.IDataStore
+  nameWithType: IDataStore
+- uid: spyderSoft.DataLayer.Core.IDataStore.DataStorePath
+  name: DataStorePath
+  href: api/spyderSoft.DataLayer.Core.IDataStore.html#spyderSoft_DataLayer_Core_IDataStore_DataStorePath
+  commentId: P:spyderSoft.DataLayer.Core.IDataStore.DataStorePath
+  fullName: spyderSoft.DataLayer.Core.IDataStore.DataStorePath
+  nameWithType: IDataStore.DataStorePath
+- uid: spyderSoft.DataLayer.Core.IDataStore.DataStorePath*
+  name: DataStorePath
+  href: api/spyderSoft.DataLayer.Core.IDataStore.html#spyderSoft_DataLayer_Core_IDataStore_DataStorePath_
+  commentId: Overload:spyderSoft.DataLayer.Core.IDataStore.DataStorePath
+  isSpec: "True"
+  fullName: spyderSoft.DataLayer.Core.IDataStore.DataStorePath
+  nameWithType: IDataStore.DataStorePath
+- uid: spyderSoft.DataLayer.Core.IDataStore.DeleteItem(spyderSoft.DataLayer.Core.IDataItem)
+  name: DeleteItem(IDataItem)
+  href: api/spyderSoft.DataLayer.Core.IDataStore.html#spyderSoft_DataLayer_Core_IDataStore_DeleteItem_spyderSoft_DataLayer_Core_IDataItem_
+  commentId: M:spyderSoft.DataLayer.Core.IDataStore.DeleteItem(spyderSoft.DataLayer.Core.IDataItem)
+  fullName: spyderSoft.DataLayer.Core.IDataStore.DeleteItem(spyderSoft.DataLayer.Core.IDataItem)
+  nameWithType: IDataStore.DeleteItem(IDataItem)
+- uid: spyderSoft.DataLayer.Core.IDataStore.DeleteItem*
+  name: DeleteItem
+  href: api/spyderSoft.DataLayer.Core.IDataStore.html#spyderSoft_DataLayer_Core_IDataStore_DeleteItem_
+  commentId: Overload:spyderSoft.DataLayer.Core.IDataStore.DeleteItem
+  isSpec: "True"
+  fullName: spyderSoft.DataLayer.Core.IDataStore.DeleteItem
+  nameWithType: IDataStore.DeleteItem
+- uid: spyderSoft.DataLayer.Core.IDataStore.DeleteItems(System.Collections.Generic.IEnumerable{spyderSoft.DataLayer.Core.IDataItem})
+  name: DeleteItems(IEnumerable<IDataItem>)
+  href: api/spyderSoft.DataLayer.Core.IDataStore.html#spyderSoft_DataLayer_Core_IDataStore_DeleteItems_System_Collections_Generic_IEnumerable_spyderSoft_DataLayer_Core_IDataItem__
+  commentId: M:spyderSoft.DataLayer.Core.IDataStore.DeleteItems(System.Collections.Generic.IEnumerable{spyderSoft.DataLayer.Core.IDataItem})
+  name.vb: DeleteItems(IEnumerable(Of IDataItem))
+  fullName: spyderSoft.DataLayer.Core.IDataStore.DeleteItems(System.Collections.Generic.IEnumerable<spyderSoft.DataLayer.Core.IDataItem>)
+  fullName.vb: spyderSoft.DataLayer.Core.IDataStore.DeleteItems(System.Collections.Generic.IEnumerable(Of spyderSoft.DataLayer.Core.IDataItem))
+  nameWithType: IDataStore.DeleteItems(IEnumerable<IDataItem>)
+  nameWithType.vb: IDataStore.DeleteItems(IEnumerable(Of IDataItem))
+- uid: spyderSoft.DataLayer.Core.IDataStore.DeleteItems*
+  name: DeleteItems
+  href: api/spyderSoft.DataLayer.Core.IDataStore.html#spyderSoft_DataLayer_Core_IDataStore_DeleteItems_
+  commentId: Overload:spyderSoft.DataLayer.Core.IDataStore.DeleteItems
+  isSpec: "True"
+  fullName: spyderSoft.DataLayer.Core.IDataStore.DeleteItems
+  nameWithType: IDataStore.DeleteItems
+- uid: spyderSoft.DataLayer.Core.IDataStore.FixDynamicExpression*
+  name: FixDynamicExpression
+  href: api/spyderSoft.DataLayer.Core.IDataStore.html#spyderSoft_DataLayer_Core_IDataStore_FixDynamicExpression_
+  commentId: Overload:spyderSoft.DataLayer.Core.IDataStore.FixDynamicExpression
+  isSpec: "True"
+  fullName: spyderSoft.DataLayer.Core.IDataStore.FixDynamicExpression
+  nameWithType: IDataStore.FixDynamicExpression
+- uid: spyderSoft.DataLayer.Core.IDataStore.FixDynamicExpression``1(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}})
+  name: FixDynamicExpression<TDataContract>(Expression<Func<TDataContract, Boolean>>)
+  href: api/spyderSoft.DataLayer.Core.IDataStore.html#spyderSoft_DataLayer_Core_IDataStore_FixDynamicExpression__1_System_Linq_Expressions_Expression_System_Func___0_System_Boolean___
+  commentId: M:spyderSoft.DataLayer.Core.IDataStore.FixDynamicExpression``1(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}})
+  name.vb: FixDynamicExpression(Of TDataContract)(Expression(Of Func(Of TDataContract, Boolean)))
+  fullName: spyderSoft.DataLayer.Core.IDataStore.FixDynamicExpression<TDataContract>(System.Linq.Expressions.Expression<System.Func<TDataContract, System.Boolean>>)
+  fullName.vb: spyderSoft.DataLayer.Core.IDataStore.FixDynamicExpression(Of TDataContract)(System.Linq.Expressions.Expression(Of System.Func(Of TDataContract, System.Boolean)))
+  nameWithType: IDataStore.FixDynamicExpression<TDataContract>(Expression<Func<TDataContract, Boolean>>)
+  nameWithType.vb: IDataStore.FixDynamicExpression(Of TDataContract)(Expression(Of Func(Of TDataContract, Boolean)))
+- uid: spyderSoft.DataLayer.Core.IDataStore.GetItem*
+  name: GetItem
+  href: api/spyderSoft.DataLayer.Core.IDataStore.html#spyderSoft_DataLayer_Core_IDataStore_GetItem_
+  commentId: Overload:spyderSoft.DataLayer.Core.IDataStore.GetItem
+  isSpec: "True"
+  fullName: spyderSoft.DataLayer.Core.IDataStore.GetItem
+  nameWithType: IDataStore.GetItem
+- uid: spyderSoft.DataLayer.Core.IDataStore.GetItem``1(System.Int64)
+  name: GetItem<TDataContract>(Int64)
+  href: api/spyderSoft.DataLayer.Core.IDataStore.html#spyderSoft_DataLayer_Core_IDataStore_GetItem__1_System_Int64_
+  commentId: M:spyderSoft.DataLayer.Core.IDataStore.GetItem``1(System.Int64)
+  name.vb: GetItem(Of TDataContract)(Int64)
+  fullName: spyderSoft.DataLayer.Core.IDataStore.GetItem<TDataContract>(System.Int64)
+  fullName.vb: spyderSoft.DataLayer.Core.IDataStore.GetItem(Of TDataContract)(System.Int64)
+  nameWithType: IDataStore.GetItem<TDataContract>(Int64)
+  nameWithType.vb: IDataStore.GetItem(Of TDataContract)(Int64)
+- uid: spyderSoft.DataLayer.Core.IDataStore.GetItems*
+  name: GetItems
+  href: api/spyderSoft.DataLayer.Core.IDataStore.html#spyderSoft_DataLayer_Core_IDataStore_GetItems_
+  commentId: Overload:spyderSoft.DataLayer.Core.IDataStore.GetItems
+  isSpec: "True"
+  fullName: spyderSoft.DataLayer.Core.IDataStore.GetItems
+  nameWithType: IDataStore.GetItems
+- uid: spyderSoft.DataLayer.Core.IDataStore.GetItems``1
+  name: GetItems<TDataContract>()
+  href: api/spyderSoft.DataLayer.Core.IDataStore.html#spyderSoft_DataLayer_Core_IDataStore_GetItems__1
+  commentId: M:spyderSoft.DataLayer.Core.IDataStore.GetItems``1
+  name.vb: GetItems(Of TDataContract)()
+  fullName: spyderSoft.DataLayer.Core.IDataStore.GetItems<TDataContract>()
+  fullName.vb: spyderSoft.DataLayer.Core.IDataStore.GetItems(Of TDataContract)()
+  nameWithType: IDataStore.GetItems<TDataContract>()
+  nameWithType.vb: IDataStore.GetItems(Of TDataContract)()
+- uid: spyderSoft.DataLayer.Core.IDataStore.GetItems``1(System.Int32,System.Int32)
+  name: GetItems<TDataContract>(Int32, Int32)
+  href: api/spyderSoft.DataLayer.Core.IDataStore.html#spyderSoft_DataLayer_Core_IDataStore_GetItems__1_System_Int32_System_Int32_
+  commentId: M:spyderSoft.DataLayer.Core.IDataStore.GetItems``1(System.Int32,System.Int32)
+  name.vb: GetItems(Of TDataContract)(Int32, Int32)
+  fullName: spyderSoft.DataLayer.Core.IDataStore.GetItems<TDataContract>(System.Int32, System.Int32)
+  fullName.vb: spyderSoft.DataLayer.Core.IDataStore.GetItems(Of TDataContract)(System.Int32, System.Int32)
+  nameWithType: IDataStore.GetItems<TDataContract>(Int32, Int32)
+  nameWithType.vb: IDataStore.GetItems(Of TDataContract)(Int32, Int32)
+- uid: spyderSoft.DataLayer.Core.IDataStore.GetItems``1(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}})
+  name: GetItems<TDataContract>(Expression<Func<TDataContract, Boolean>>)
+  href: api/spyderSoft.DataLayer.Core.IDataStore.html#spyderSoft_DataLayer_Core_IDataStore_GetItems__1_System_Linq_Expressions_Expression_System_Func___0_System_Boolean___
+  commentId: M:spyderSoft.DataLayer.Core.IDataStore.GetItems``1(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}})
+  name.vb: GetItems(Of TDataContract)(Expression(Of Func(Of TDataContract, Boolean)))
+  fullName: spyderSoft.DataLayer.Core.IDataStore.GetItems<TDataContract>(System.Linq.Expressions.Expression<System.Func<TDataContract, System.Boolean>>)
+  fullName.vb: spyderSoft.DataLayer.Core.IDataStore.GetItems(Of TDataContract)(System.Linq.Expressions.Expression(Of System.Func(Of TDataContract, System.Boolean)))
+  nameWithType: IDataStore.GetItems<TDataContract>(Expression<Func<TDataContract, Boolean>>)
+  nameWithType.vb: IDataStore.GetItems(Of TDataContract)(Expression(Of Func(Of TDataContract, Boolean)))
+- uid: spyderSoft.DataLayer.Core.IDataStore.GetItems``1(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}},System.Int32,System.Int32)
+  name: GetItems<TDataContract>(Expression<Func<TDataContract, Boolean>>, Int32, Int32)
+  href: api/spyderSoft.DataLayer.Core.IDataStore.html#spyderSoft_DataLayer_Core_IDataStore_GetItems__1_System_Linq_Expressions_Expression_System_Func___0_System_Boolean___System_Int32_System_Int32_
+  commentId: M:spyderSoft.DataLayer.Core.IDataStore.GetItems``1(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}},System.Int32,System.Int32)
+  name.vb: GetItems(Of TDataContract)(Expression(Of Func(Of TDataContract, Boolean)), Int32, Int32)
+  fullName: spyderSoft.DataLayer.Core.IDataStore.GetItems<TDataContract>(System.Linq.Expressions.Expression<System.Func<TDataContract, System.Boolean>>, System.Int32, System.Int32)
+  fullName.vb: spyderSoft.DataLayer.Core.IDataStore.GetItems(Of TDataContract)(System.Linq.Expressions.Expression(Of System.Func(Of TDataContract, System.Boolean)), System.Int32, System.Int32)
+  nameWithType: IDataStore.GetItems<TDataContract>(Expression<Func<TDataContract, Boolean>>, Int32, Int32)
+  nameWithType.vb: IDataStore.GetItems(Of TDataContract)(Expression(Of Func(Of TDataContract, Boolean)), Int32, Int32)
+- uid: spyderSoft.DataLayer.Core.IDataStore.GetItemsCount*
+  name: GetItemsCount
+  href: api/spyderSoft.DataLayer.Core.IDataStore.html#spyderSoft_DataLayer_Core_IDataStore_GetItemsCount_
+  commentId: Overload:spyderSoft.DataLayer.Core.IDataStore.GetItemsCount
+  isSpec: "True"
+  fullName: spyderSoft.DataLayer.Core.IDataStore.GetItemsCount
+  nameWithType: IDataStore.GetItemsCount
+- uid: spyderSoft.DataLayer.Core.IDataStore.GetItemsCount``1
+  name: GetItemsCount<TDataContract>()
+  href: api/spyderSoft.DataLayer.Core.IDataStore.html#spyderSoft_DataLayer_Core_IDataStore_GetItemsCount__1
+  commentId: M:spyderSoft.DataLayer.Core.IDataStore.GetItemsCount``1
+  name.vb: GetItemsCount(Of TDataContract)()
+  fullName: spyderSoft.DataLayer.Core.IDataStore.GetItemsCount<TDataContract>()
+  fullName.vb: spyderSoft.DataLayer.Core.IDataStore.GetItemsCount(Of TDataContract)()
+  nameWithType: IDataStore.GetItemsCount<TDataContract>()
+  nameWithType.vb: IDataStore.GetItemsCount(Of TDataContract)()
+- uid: spyderSoft.DataLayer.Core.IDataStore.GetItemsCount``1(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}})
+  name: GetItemsCount<TDataContract>(Expression<Func<TDataContract, Boolean>>)
+  href: api/spyderSoft.DataLayer.Core.IDataStore.html#spyderSoft_DataLayer_Core_IDataStore_GetItemsCount__1_System_Linq_Expressions_Expression_System_Func___0_System_Boolean___
+  commentId: M:spyderSoft.DataLayer.Core.IDataStore.GetItemsCount``1(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}})
+  name.vb: GetItemsCount(Of TDataContract)(Expression(Of Func(Of TDataContract, Boolean)))
+  fullName: spyderSoft.DataLayer.Core.IDataStore.GetItemsCount<TDataContract>(System.Linq.Expressions.Expression<System.Func<TDataContract, System.Boolean>>)
+  fullName.vb: spyderSoft.DataLayer.Core.IDataStore.GetItemsCount(Of TDataContract)(System.Linq.Expressions.Expression(Of System.Func(Of TDataContract, System.Boolean)))
+  nameWithType: IDataStore.GetItemsCount<TDataContract>(Expression<Func<TDataContract, Boolean>>)
+  nameWithType.vb: IDataStore.GetItemsCount(Of TDataContract)(Expression(Of Func(Of TDataContract, Boolean)))
+- uid: spyderSoft.DataLayer.Core.IDataStore.GetItemsQueryable*
+  name: GetItemsQueryable
+  href: api/spyderSoft.DataLayer.Core.IDataStore.html#spyderSoft_DataLayer_Core_IDataStore_GetItemsQueryable_
+  commentId: Overload:spyderSoft.DataLayer.Core.IDataStore.GetItemsQueryable
+  isSpec: "True"
+  fullName: spyderSoft.DataLayer.Core.IDataStore.GetItemsQueryable
+  nameWithType: IDataStore.GetItemsQueryable
+- uid: spyderSoft.DataLayer.Core.IDataStore.GetItemsQueryable``1
+  name: GetItemsQueryable<TDataContract>()
+  href: api/spyderSoft.DataLayer.Core.IDataStore.html#spyderSoft_DataLayer_Core_IDataStore_GetItemsQueryable__1
+  commentId: M:spyderSoft.DataLayer.Core.IDataStore.GetItemsQueryable``1
+  name.vb: GetItemsQueryable(Of TDataContract)()
+  fullName: spyderSoft.DataLayer.Core.IDataStore.GetItemsQueryable<TDataContract>()
+  fullName.vb: spyderSoft.DataLayer.Core.IDataStore.GetItemsQueryable(Of TDataContract)()
+  nameWithType: IDataStore.GetItemsQueryable<TDataContract>()
+  nameWithType.vb: IDataStore.GetItemsQueryable(Of TDataContract)()
+- uid: spyderSoft.DataLayer.Core.IDataStore.SaveItem*
+  name: SaveItem
+  href: api/spyderSoft.DataLayer.Core.IDataStore.html#spyderSoft_DataLayer_Core_IDataStore_SaveItem_
+  commentId: Overload:spyderSoft.DataLayer.Core.IDataStore.SaveItem
+  isSpec: "True"
+  fullName: spyderSoft.DataLayer.Core.IDataStore.SaveItem
+  nameWithType: IDataStore.SaveItem
+- uid: spyderSoft.DataLayer.Core.IDataStore.SaveItem``1(``0)
+  name: SaveItem<TDataContract>(TDataContract)
+  href: api/spyderSoft.DataLayer.Core.IDataStore.html#spyderSoft_DataLayer_Core_IDataStore_SaveItem__1___0_
+  commentId: M:spyderSoft.DataLayer.Core.IDataStore.SaveItem``1(``0)
+  name.vb: SaveItem(Of TDataContract)(TDataContract)
+  fullName: spyderSoft.DataLayer.Core.IDataStore.SaveItem<TDataContract>(TDataContract)
+  fullName.vb: spyderSoft.DataLayer.Core.IDataStore.SaveItem(Of TDataContract)(TDataContract)
+  nameWithType: IDataStore.SaveItem<TDataContract>(TDataContract)
+  nameWithType.vb: IDataStore.SaveItem(Of TDataContract)(TDataContract)
+- uid: spyderSoft.DataLayer.Core.IDataStore.SaveItems*
+  name: SaveItems
+  href: api/spyderSoft.DataLayer.Core.IDataStore.html#spyderSoft_DataLayer_Core_IDataStore_SaveItems_
+  commentId: Overload:spyderSoft.DataLayer.Core.IDataStore.SaveItems
+  isSpec: "True"
+  fullName: spyderSoft.DataLayer.Core.IDataStore.SaveItems
+  nameWithType: IDataStore.SaveItems
+- uid: spyderSoft.DataLayer.Core.IDataStore.SaveItems``1(System.Collections.Generic.IEnumerable{``0})
+  name: SaveItems<TDataContract>(IEnumerable<TDataContract>)
+  href: api/spyderSoft.DataLayer.Core.IDataStore.html#spyderSoft_DataLayer_Core_IDataStore_SaveItems__1_System_Collections_Generic_IEnumerable___0__
+  commentId: M:spyderSoft.DataLayer.Core.IDataStore.SaveItems``1(System.Collections.Generic.IEnumerable{``0})
+  name.vb: SaveItems(Of TDataContract)(IEnumerable(Of TDataContract))
+  fullName: spyderSoft.DataLayer.Core.IDataStore.SaveItems<TDataContract>(System.Collections.Generic.IEnumerable<TDataContract>)
+  fullName.vb: spyderSoft.DataLayer.Core.IDataStore.SaveItems(Of TDataContract)(System.Collections.Generic.IEnumerable(Of TDataContract))
+  nameWithType: IDataStore.SaveItems<TDataContract>(IEnumerable<TDataContract>)
+  nameWithType.vb: IDataStore.SaveItems(Of TDataContract)(IEnumerable(Of TDataContract))
+- uid: spyderSoft.DataLayer.Core.Interfaces
+  name: spyderSoft.DataLayer.Core.Interfaces
+  href: api/spyderSoft.DataLayer.Core.Interfaces.html
+  commentId: N:spyderSoft.DataLayer.Core.Interfaces
+  fullName: spyderSoft.DataLayer.Core.Interfaces
+  nameWithType: spyderSoft.DataLayer.Core.Interfaces
+- uid: spyderSoft.DataLayer.Core.Interfaces.IDataStoreConsumer
+  name: IDataStoreConsumer
+  href: api/spyderSoft.DataLayer.Core.Interfaces.IDataStoreConsumer.html
+  commentId: T:spyderSoft.DataLayer.Core.Interfaces.IDataStoreConsumer
+  fullName: spyderSoft.DataLayer.Core.Interfaces.IDataStoreConsumer
+  nameWithType: IDataStoreConsumer
+- uid: spyderSoft.DataLayer.Core.Interfaces.IDataStoreConsumer.SetDataStore(spyderSoft.DataLayer.Core.IDataStore)
+  name: SetDataStore(IDataStore)
+  href: api/spyderSoft.DataLayer.Core.Interfaces.IDataStoreConsumer.html#spyderSoft_DataLayer_Core_Interfaces_IDataStoreConsumer_SetDataStore_spyderSoft_DataLayer_Core_IDataStore_
+  commentId: M:spyderSoft.DataLayer.Core.Interfaces.IDataStoreConsumer.SetDataStore(spyderSoft.DataLayer.Core.IDataStore)
+  fullName: spyderSoft.DataLayer.Core.Interfaces.IDataStoreConsumer.SetDataStore(spyderSoft.DataLayer.Core.IDataStore)
+  nameWithType: IDataStoreConsumer.SetDataStore(IDataStore)
+- uid: spyderSoft.DataLayer.Core.Interfaces.IDataStoreConsumer.SetDataStore*
+  name: SetDataStore
+  href: api/spyderSoft.DataLayer.Core.Interfaces.IDataStoreConsumer.html#spyderSoft_DataLayer_Core_Interfaces_IDataStoreConsumer_SetDataStore_
+  commentId: Overload:spyderSoft.DataLayer.Core.Interfaces.IDataStoreConsumer.SetDataStore
+  isSpec: "True"
+  fullName: spyderSoft.DataLayer.Core.Interfaces.IDataStoreConsumer.SetDataStore
+  nameWithType: IDataStoreConsumer.SetDataStore

@@ -1,0 +1,308 @@
+{
+  "homepages": [],
+  "source_base_path": "D:/a/spydersoft.datalayer.core/spydersoft.datalayer.core/docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "dGl72YdeoaP6sT1oY3yDJyIKNZ+WN4OanIw7nenGQqo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/spyderSoft.DataLayer.Core.Attributes.ColumnNameAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/spyderSoft.DataLayer.Core.Attributes.ColumnNameAttribute.html",
+          "hash": "dd8btod8m0epMovdkviE1CR+ugyUXrkMwDrHGAal9XA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/spyderSoft.DataLayer.Core.Attributes.IgnorePropertyAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/spyderSoft.DataLayer.Core.Attributes.IgnorePropertyAttribute.html",
+          "hash": "aCe/5JOAaCry7Rvf4lZic50xOu9EbHVhSIVkfWh8h2s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/spyderSoft.DataLayer.Core.Attributes.KeyAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/spyderSoft.DataLayer.Core.Attributes.KeyAttribute.html",
+          "hash": "wqiAKPAdN9MtiHIN1VwglSTrvXzN/iiM35frN5QG8RQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/spyderSoft.DataLayer.Core.Attributes.TableAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/spyderSoft.DataLayer.Core.Attributes.TableAttribute.html",
+          "hash": "FcNn7cygETpfdtEJsYGtrTfdww1H7fnoaDF936TYypQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/spyderSoft.DataLayer.Core.Attributes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/spyderSoft.DataLayer.Core.Attributes.html",
+          "hash": "m9GQ0TtV9c5qGrvF70Ss57ZaFDy9bmlsED9z/aoM1L0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/spyderSoft.DataLayer.Core.DataItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/spyderSoft.DataLayer.Core.DataItem.html",
+          "hash": "5BkEzmMDfYqzwbE05RhXVTbrqImqsGGTtL9RzHO989k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/spyderSoft.DataLayer.Core.DataItemEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/spyderSoft.DataLayer.Core.DataItemEventArgs.html",
+          "hash": "dHwydty5uV7il5bOwT7Wvd0rPo09YHt63FG6MWe/oNY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/spyderSoft.DataLayer.Core.Exceptions.DataException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/spyderSoft.DataLayer.Core.Exceptions.DataException.html",
+          "hash": "4F4KPy6z63Ke64+O4gJ6/vSsyGiTBWeJAiHc3zmcOkI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/spyderSoft.DataLayer.Core.Exceptions.ValidationException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/spyderSoft.DataLayer.Core.Exceptions.ValidationException.html",
+          "hash": "REeBrV/qEuat7etENlEHlYgYZsnUbENKuhgjbpJyBUs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/spyderSoft.DataLayer.Core.Exceptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/spyderSoft.DataLayer.Core.Exceptions.html",
+          "hash": "1dZPyxvgUWlE3rnaYQl6/NP9LWAoibFB5ZP7auHfJso="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/spyderSoft.DataLayer.Core.IDataItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/spyderSoft.DataLayer.Core.IDataItem.html",
+          "hash": "m5O0nEb6QF2U66kU47XrZkue/30epOAr+oyRqeGTX30="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/spyderSoft.DataLayer.Core.IDataStore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/spyderSoft.DataLayer.Core.IDataStore.html",
+          "hash": "8OGnN8/WoeVJKjUxRXuwZGxdJ87OBd0l/FtrcATSf3o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/spyderSoft.DataLayer.Core.Interfaces.IDataStoreConsumer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/spyderSoft.DataLayer.Core.Interfaces.IDataStoreConsumer.html",
+          "hash": "w/IjtY/nTE/Z54oQT6iqtR3exOz6w8yVV1rXGMFCCSI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/spyderSoft.DataLayer.Core.Interfaces.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/spyderSoft.DataLayer.Core.Interfaces.html",
+          "hash": "1A05fLaL0eufJU+mAVmOw7r2rWL5q8Q2JcfXLSyiFII="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/spyderSoft.DataLayer.Core.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/spyderSoft.DataLayer.Core.html",
+          "hash": "8C83LAgn4hbS7O1NZkDB4p51Yx7OqVDaZQFf779nY50="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "LL397jtIU1j4Sv3mEu0ri8YaJTEp2dUhSW7f0FjovkI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "8owsQXpQyRQpSv5MndaTxu7H1/StwNdozXXdKdyEi5U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "BlPxk5mtl2kgfcZUgkEguqiSAR/EUyUTT4EdebwkQvs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "+gqRRte+/f+Xel9Tc43wJSmiRFwrrLmV2cF/vGI4hRU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "Si1vxZ0U9xrBQ2tpvoGpd7QuKqF7VFDqZ3UMg5wP9kI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 15,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
